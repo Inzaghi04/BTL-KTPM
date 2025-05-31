@@ -1,0 +1,155 @@
+﻿{
+  "#": {
+    "home": "Trang chủ",
+    "migrate": "Load database",
+    "migrate/csharp": "C#",
+    "migrate/s/model": "Models",
+    "migrate/s/view": "Views",
+    "migrate/s/controller": "Controllers",
+    "migrate/sql": "SQL",
+    "migrate/s/proc": "Procedures",
+    "taikhoan": "Quản lý người dùng",
+    "taikhoan/lichsu": "Lịch sử đăng nhập",
+    //"hanhchinh": "Quản lý hành chính",
+    //"hanhchinh/huyen": "Đơn vị cấp huyện",
+    //"hanhchinh/xa": "Đơn vị cấp xã",
+    "me/changepass": "Đổi mật khẩu",
+
+    "coso": "Cơ sở",
+    "coso/index": "Danh sách cơ sở",
+    "coso/mohinhtrongtrot": "Số lượng cơ sở trồng trọt",
+    "coso/gietmo": "Cơ sở giết mổ",
+    "coso/chicucthuy": "Chi cục thú y",
+    "coso/dailybanthuoc": "Đại lý bán thuốc",
+    "coso/khutamgiu": "Khu tạm giữ, tiêu hủy",
+
+    "ToChucCaNhan": "Tổ chức cá nhân",
+    "ToChucCaNhan/index": "Danh mục tổ chức cá nhân",
+    "ToChucCaNhan/thongke": "Thống kê",
+
+    "hotrongtrot/index": "Danh sách số hộ trồng trọt",
+    "hotrongtrot/thongke": "Vùng trồng trọt đạt chuẩn",
+
+    "sanphamxulychatthai": "Sản phẩm xử lý chất thải",
+    "sanphamxulychatthai/index": "Sản phẩm xử lý chất thải",
+    "sanphamxulychatthai/sanphamconhan": "Sản phẩm còn hạn sử dụng",
+
+    "giaychungnhan/index": "Giấy Chứng Nhận",
+
+    "tochucchungnhan/index": "Tổ Chức Chứng Nhận",
+
+    "vungtrongtrot": "Vùng trồng trọt",
+    "vungtrongtrot/index": "Vùng trồng trọt",
+
+    "DieuKienTrongTrot/index": "Điều kiện trồng trọt",
+
+    "DonViHanhChinh/index": " Tổng hợp đơn vị hành chính",
+    "DonViHanhChinh/ThongKeHuyen": "Thống kê Huyện",
+    "DonViHanhChinh/ThongKePhuong": "Thống kê Phường",
+    "DonViHanhChinh/ThongKeXa": "Thống kê Xã",
+
+    "GiongCay": "Giống cây trồng",
+    "GiongCay/index": "Danh sách giống cây trồng",
+
+    "qltt": "Quản Lý Trồng Trọt",
+
+    ".": ""
+  },
+  "actors": {
+    "Developer": {
+      "home": {
+        "Childs": [
+          {
+            "Text": "SQL",
+            "Refs": [ "migrate" ]
+          }
+        ]
+      },
+      "migrate/csharp": {
+        "Childs": [
+          {
+            "Text": "Project",
+            "Refs": [ "migrate/s/model", "migrate/s/controller", "migrate/s/view" ]
+          }
+        ]
+      },
+      "migrate/sql": {
+        "Childs": [
+          {
+            "Text": "Project",
+            "Refs": [ "migrate/s/proc" ]
+          }
+        ]
+      }
+    },
+    "Admin": {
+      "home": {
+        "Childs": [
+          {
+            "Text": "Người dùng",
+            "Refs": [ "taikhoan", "taikhoan/lichsu" ]
+          },
+          {
+            "Text": "Đơn Vị Hành Chính",
+            //"Url": "DonViHanhChinh",
+            "Refs": [ "DonViHanhChinh/index", "DonViHanhChinh/ThongKeHuyen", "DonViHanhChinh/ThongKePhuong", "DonViHanhChinh/ThongKeXa" ]
+          },
+          {
+            "Text": "Profile",
+            "Refs": [ "me/changepass" ]
+          }
+        ]
+      },
+      "qltt": {
+        "Childs": [
+          {
+            "Text": "Vùng trồng trọt",
+            "Refs": [
+              "vungtrongtrot/index",
+              "hotrongtrot/index"
+              //"hotrongtrot/thongke"
+
+            ]
+          },
+          {
+            "Text": "Điều kiện trồng trọt",
+            "Refs": [
+              "DieuKienTrongTrot/index",
+              "hotrongtrot/thongke"
+            ]
+          },
+          {
+            "Text": "Cơ sở",
+            "Refs": [
+              "coso/index",
+              "coso/mohinhtrongtrot"
+            ]
+          },
+          {
+            "Text": "Tổ chức cá nhân",
+            "Url": "ToChucCaNhan",
+            "Refs": [
+              "ToChucCaNhan/index",
+              "giaychungnhan/index",
+              "tochucchungnhan/index"
+            ]
+          },
+          {
+            "Text": "Xử Lý Chất Thải",
+            "Url": "SanPhamXuLyChatThai",
+            "Refs": [
+              "sanphamxulychatthai/index",
+              "sanphamxulychatthai/sanphamconhan"
+            ]
+          },
+          {
+            "Text": "Giống cây trồng",
+            "Refs": [
+                "GiongCay/index"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
