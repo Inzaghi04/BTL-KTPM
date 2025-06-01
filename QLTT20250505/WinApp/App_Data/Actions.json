@@ -30,9 +30,6 @@
     "hotrongtrot/index": "Danh sách số hộ trồng trọt",
     "hotrongtrot/thongke": "Vùng trồng trọt đạt chuẩn",
 
-    "sanphamxulychatthai": "Sản phẩm xử lý chất thải",
-    "sanphamxulychatthai/index": "Sản phẩm xử lý chất thải",
-    "sanphamxulychatthai/sanphamconhan": "Sản phẩm còn hạn sử dụng",
 
     "giaychungnhan/index": "Giấy Chứng Nhận",
 
@@ -50,6 +47,8 @@
 
     "GiongCay": "Giống cây trồng",
     "GiongCay/index": "Danh sách giống cây trồng",
+    "GiongCay/ThongKeGiongCayLuuHanh": "Giống cây trồng lưu hành tại VN",
+    "GiongCay/ThongKeCayDauDong": "Cây vườn đầu dòng",
 
     "qltt": "Quản Lý Trồng Trọt",
 
@@ -135,17 +134,12 @@
             ]
           },
           {
-            "Text": "Xử Lý Chất Thải",
-            "Url": "SanPhamXuLyChatThai",
-            "Refs": [
-              "sanphamxulychatthai/index",
-              "sanphamxulychatthai/sanphamconhan"
-            ]
-          },
-          {
             "Text": "Giống cây trồng",
+            "Url": "GiongCay",
             "Refs": [
-                "GiongCay/index"
+                "GiongCay/index",
+                "GiongCay/ThongKeGiongCayLuuHanh",
+                "GiongCay/ThongKeCayDauDong"
             ]
           }
         ]

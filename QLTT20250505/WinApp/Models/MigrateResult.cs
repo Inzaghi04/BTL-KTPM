@@ -206,15 +206,7 @@ namespace Models
 }
 namespace Models
 {
-    public partial class SanPhamXuLyChatThai
-    {
-        public int? ID { get; set; }
-        public string TenSanPham { get; set; }
-        public string LoaiSanPham { get; set; }
-        public DateTime? NgaySanXuat { get; set; }
-        public DateTime? NgayHetHan { get; set; }
-        public int? CoSoID { get; set; }
-    }
+
     public partial class SanPhamConHan
     {
         public int? ID { get; set; }
@@ -278,7 +270,32 @@ namespace Models
     public partial class GiongCay
     {
         public int? ID { get; set; }
-        public string TenGiong { get; set; }
+        public string TenGiongCay { get; set; }
+
+        public string LoaiCay { get; set; }
+        public string MoTa { get; set; }
+    }
+}
+namespace Models
+{
+    public partial class GiongCayLuuHanh
+    {
+        public int? ID { get; set; }
+        public string TenGiongCay { get; set; }
+
+        public string LoaiCay { get; set; }
+        public string MoTa { get; set; }
+    }
+}
+
+namespace Models
+{
+    public partial class CayDauDong
+    {
+        public int? ID { get; set; }
+        public string TenGiongCay { get; set; }
+
+        public string LoaiCay { get; set; }
         public string MoTa { get; set; }
     }
 }

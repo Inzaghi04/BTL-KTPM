@@ -256,19 +256,19 @@ ID int primary key identity
 
 -- Thêm dữ liệu vào bảng VungTrongTrot (cách chính xác nhất)
 insert into VungTrongTrot(TenVungTrongTrot, MoTa, DonViHanhChinhID) values
-    (N'Vùng chăn nuôi Thanh Trù', N'Nuôi lợn tập trung', 
+    (N'Vùng trồng trọt Thanh Trù', N'Nuôi lợn tập trung', 
      (select ID from DonViHanhChinh where TenDonVi = N'Xã Thanh Trù')),
     
-    (N'Vùng chăn nuôi Ngọc Thanh', N'Nuôi gà thả vườn', 
+    (N'Vùng trồng trọt Ngọc Thanh', N'Nuôi gà thả vườn', 
 (select ID from DonViHanhChinh where TenDonVi = N'Xã Ngọc Thanh')),
     
-    (N'Vùng chăn nuôi Hợp Lý', N'Nuôi đa dạng các loại gia súc', 
+    (N'Vùng trồng trọt Hợp Lý', N'Nuôi đa dạng các loại gia súc', 
      (select ID from DonViHanhChinh where TenDonVi = N'Xã Hợp Lý')),
     
-    (N'Vùng chăn nuôi Minh Quang', N'Nuôi theo hướng hữu cơ', 
+    (N'Vùng trồng trọt Minh Quang', N'Nuôi theo hướng hữu cơ', 
      (select ID from DonViHanhChinh where TenDonVi = N'Xã Minh Quang')),
     
-    (N'Vùng chăn nuôi Sơn Lôi', N'Vùng an toàn dịch bệnh', 
+    (N'Vùng trồng trọt Sơn Lôi', N'Vùng an toàn dịch bệnh', 
      (select ID from DonViHanhChinh where TenDonVi = N'Xã Sơn Lôi'));
 
 
@@ -295,7 +295,7 @@ insert into HoTrongTrot (VungTrongTrotID, SoHo, KetQua, NgayThongKe) values
 (4, 25, N'Đạt tiêu chuẩn', '2025-03-20'),
 (5, 35, N'Đạt tiêu chuẩn', '2025-04-01');
 
--- Thống kê hộ chăn nuôi theo vùng
+-- Thống kê hộ trồng trọt theo vùng
 SELECT h.ID, v.TenVungTrongTrot, h.SoHo, h.KetQua, h.NgayThongKe
 FROM HoTrongTrot h
 JOIN VungTrongTrot v ON h.VungTrongTrotID = v.ID
@@ -310,11 +310,11 @@ ID int primary key identity
 );
 INSERT INTO DieuKienTrongTrot (HoTrongTrotID, MoTa, NgayCapNhat) VALUES
 (1, N'Hệ thống chuồng trại đạt chuẩn, đảm bảo vệ sinh', '2025-01-20'),
-(2, N'Chăn nuôi gà thả vườn, nguồn nước sạch', '2025-02-15'),
+(2, N'trồng trọt gà thả vườn, nguồn nước sạch', '2025-02-15'),
 (3, N'Chuồng trại cũ, cần cải tạo hệ thống thoát nước', '2025-03-10'),
 (4, N'Sử dụng thức ăn hữu cơ, không hóa chất', '2025-03-25'),
 (5, N'Hệ thống xử lý chất thải đạt tiêu chuẩn', '2025-04-05');
--- Điều kiện các hộ chăn nuôi
+-- Điều kiện các hộ trồng trọt
 SELECT d.ID, v.TenVungTrongTrot, h.SoHo, d.MoTa, d.NgayCapNhat
 FROM DieuKienTrongTrot d
 JOIN HoTrongTrot h ON d.HoTrongTrotID = h.ID
@@ -365,9 +365,9 @@ ID int primary key identity
 )
 
 insert into LoaiCoSo (TenLoaiCoSo) values
-(N'Trang trại chăn nuôi'),
+(N'Trang trại trồng trọt'),
 (N'Cơ sở giết mổ'),
-(N'Nhà máy chế biến thức ăn chăn nuôi'),
+(N'Nhà máy chế biến thức ăn trồng trọt'),
 (N'Cơ sở xử lý chất thải');
 
 
@@ -380,9 +380,9 @@ ID int primary key identity
 )
 
 INSERT INTO ToChuc_or_CaNhan (Ten, DiaChi, Email_or_Phone) VALUES
-(N'Công ty TNHH Chăn nuôi Vĩnh Phúc', N'123 Đường Láng, Vĩnh Yên', N'vinhphucfarm@gmail.com'),
+(N'Công ty TNHH trồng trọt Vĩnh Phúc', N'123 Đường Láng, Vĩnh Yên', N'vinhphucfarm@gmail.com'),
 (N'Hộ ông Nguyễn Văn An', N'Thôn 2, Xã Thanh Trù', N'0912345678'),
-(N'Công ty CP Thức ăn chăn nuôi Minh Quang', N'xã Minh Quang, huyện Tam Đảo', N'minhquangfeed@gmail.com'),
+(N'Công ty CP Thức ăn trồng trọt Minh Quang', N'xã Minh Quang, huyện Tam Đảo', N'minhquangfeed@gmail.com'),
 (N'Hộ bà Trần Thị Bích', N'Xã Sơn Lôi, huyện Bình Xuyên', N'0923456789'),
 (N'Cơ sở giết mổ Hợp Lý', N'Hợp Lý,huyện Lập Thạch', N'0934567890');
 
@@ -428,7 +428,7 @@ INSERT INTO BanDoPhanBo (KinhDo, ViDo, CoSoID, VungTrongTrotID) VALUES
 (105.580, 21.350, 2, 3),
 (105.630, 21.280, 3, 4),
 (105.600, 21.320, 4, 5);
--- Vị trí các cơ sở/vùng chăn nuôi trên bản đồ
+-- Vị trí các cơ sở/vùng trồng trọt trên bản đồ
 SELECT b.ID, 
        CASE 
            WHEN b.CoSoID IS NOT NULL THEN c.TenCoSo 
@@ -437,7 +437,7 @@ SELECT b.ID,
        b.KinhDo, b.ViDo,
        CASE 
            WHEN b.CoSoID IS NOT NULL THEN l.TenLoaiCoSo 
-           ELSE N'Vùng chăn nuôi' 
+           ELSE N'Vùng trồng trọt' 
        END AS Loai
 FROM BanDoPhanBo b
 LEFT JOIN CoSo c ON b.CoSoID = c.ID
@@ -454,8 +454,8 @@ ID int primary key identity
 insert into LichSuTruyCap (ThoiGianTruyCap, MoTaHanhDong, NguoiDungID) values
 ('2025-04-20 08:30', N'Đăng nhập hệ thống', 1),
 ('2025-04-20 09:00', N'Cập nhật dữ liệu cơ sở', 2),
-('2025-04-21 10:15', N'Xem báo cáo vùng chăn nuôi', 3),
-('2025-04-22 14:20', N'Thêm thông tin hộ chăn nuôi', 4),
+('2025-04-21 10:15', N'Xem báo cáo vùng trồng trọt', 3),
+('2025-04-22 14:20', N'Thêm thông tin hộ trồng trọt', 4),
 ('2025-04-23 07:45', N'Đăng xuất hệ thống', 1);
 
 -- Lịch sử hoạt động của người dùng
@@ -472,7 +472,7 @@ ID int primary key identity
 ,Email_or_Phone nvarchar(50)
 )
 INSERT INTO ToChucChungNhan (Ten, DiaChi, Email_or_Phone) VALUES
-(N'Cục Chăn nuôi Việt Nam', N'Hà Nội', N'TrongTrot@vn.gov.vn'),
+(N'Cục trồng trọt Việt Nam', N'Hà Nội', N'TrongTrot@vn.gov.vn'),
 (N'Trung tâm Kiểm định Vĩnh Phúc', N'Vĩnh Yên', N'kiemdinhvp@gmail.com'),
 (N'Công ty Chứng nhận VietCert', N'TP.HCM', N'vietcert@gmail.com');
 
@@ -504,10 +504,10 @@ ID int primary key
 
 )
 INSERT INTO GiayChungNhan (ID, ToChucChungNhanID, Ten, ToChuc_or_CaNhanID, NgayCap, NgayHetHan) VALUES
-(1, 1, N'Chứng nhận an toàn chăn nuôi', 2, '2024-06-20', '2025-06-20'),
+(1, 1, N'Chứng nhận an toàn trồng trọt', 2, '2024-06-20', '2025-06-20'),
 (2, 2, N'Chứng nhận cơ sở giết mổ', 5, '2024-07-10', '2025-07-10'),
 (3, 3, N'Chứng nhận sản xuất thức ăn', 3, '2024-08-15', '2025-08-15'),
-(4, 2, N'Chứng nhận chăn nuôi sạch', 4, '2024-09-10', '2025-09-10'),
+(4, 2, N'Chứng nhận trồng trọt sạch', 4, '2024-09-10', '2025-09-10'),
 (5, 1, N'Chứng nhận xử lý chất thải', 1, '2024-10-25', '2025-10-25');
 
 -- Chi tiết phân quyền
@@ -534,7 +534,7 @@ JOIN DonViHanhChinh d ON n.DonViHanhChinhID = d.ID
 LEFT JOIN LichSuTruyCap l ON n.ID = l.NguoiDungID
 GROUP BY n.ID, n.UserName, n.Email_or_Phone, v.TenVaiTro, d.TenDonVi, n.TrangThai;
 
--- Thông tin các cơ sở chăn nuôi
+-- Thông tin các cơ sở trồng trọt
 SELECT c.ID, c.TenCoSo, c.DiaChi, c.NgayCapGiayPhep,
        l.TenLoaiCoSo, t.Ten AS 'Chủ sở hữu', dv.TenDonVi AS 'Địa bàn'
 FROM CoSo c
@@ -591,3 +591,59 @@ GO
 CREATE VIEW ThongKeHoTrongTrot AS
 SELECT *
 FROM HoTrongTrot
+GO
+-- 1. Quản lý danh mục giống cây trồng được lưu hành tại Việt Nam
+CREATE TABLE GiongCayLuuHanh
+(
+    ID INT PRIMARY KEY IDENTITY,
+    TenGiongCay NVARCHAR(100),
+    LoaiCay NVARCHAR(50), -- Ví dụ: Cây ăn quả, Cây công nghiệp, Cây lâm nghiệp
+    MoTa NVARCHAR(255)
+);
+
+-- 2. Quản lý danh mục cây/vườn cây đầu dòng
+CREATE TABLE CayDauDong
+(
+    ID INT PRIMARY KEY IDENTITY,
+    TenGiongCay NVARCHAR(100),
+    LoaiCay NVARCHAR(50),
+    MoTa NVARCHAR(255)
+);
+
+-- 3. Thêm dữ liệu mẫu cho hai bảng trên
+INSERT INTO GiongCayLuuHanh (TenGiongCay, LoaiCay, MoTa) VALUES
+    (N'Xoài Cát Hòa Lộc', N'Cây ăn quả', N'Giống xoài chất lượng cao, ngọt, thơm'),
+    (N'Cam Sành', N'Cây ăn quả', N'Giống cam phổ biến, mọng nước'),
+    (N'Cà phê Catimor', N'Cây công nghiệp', N'Giống cà phê năng suất cao'),
+    (N'Nhãn Xuồng Cơm Vàng', N'Cây ăn quả', N'Giống nhãn ngọt, cơm dày, năng suất cao');
+
+INSERT INTO CayDauDong (TenGiongCay, LoaiCay, MoTa) VALUES
+    (N'Keo Lai', N'Cây lâm nghiệp', N'Giống cây gỗ nhanh lớn'),
+    (N'Sầu riêng Ri6', N'Cây ăn quả', N'Giống sầu riêng thơm ngon, cơm dày'),
+    (N'Bưởi Diễn', N'Cây ăn quả', N'Giống bưởi ngọt, múi mọng'),
+	(N'Mít Thái Siêu Sớm', N'Cây ăn quả', N'Giống mít cho trái sớm, múi dày và ngọt'),
+    (N'Cao su RRIV 4', N'Cây công nghiệp', N'Giống cao su năng suất cao');
+
+-- 4. Tạo VIEW tổng hợp danh mục giống cây trồng chính từ hai bảng
+GO
+CREATE VIEW GiongCay AS
+SELECT TenGiongCay, LoaiCay, MoTa FROM GiongCayLuuHanh
+UNION
+SELECT TenGiongCay, LoaiCay, MoTa FROM CayDauDong;
+GO
+
+-- 5. View cho từng bảng con (tùy chọn, bạn đã có sẵn)
+CREATE VIEW View_GiongCayLuuHanh AS
+SELECT ID, TenGiongCay, LoaiCay, MoTa
+FROM GiongCayLuuHanh;
+
+CREATE VIEW View_CayDauDong AS
+SELECT ID, TenGiongCay, LoaiCay, MoTa
+FROM CayDauDong;
+
+-- 6. Truy vấn dữ liệu tổng hợp
+SELECT * FROM GiongCay ORDER BY LoaiCay, TenGiongCay;
+
+-- 7. Truy vấn dữ liệu từng bảng con
+SELECT * FROM View_GiongCayLuuHanh ORDER BY LoaiCay, TenGiongCay;
+SELECT * FROM View_CayDauDong ORDER BY LoaiCay, TenGiongCay;

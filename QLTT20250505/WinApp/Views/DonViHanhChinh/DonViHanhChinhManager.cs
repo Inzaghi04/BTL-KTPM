@@ -7,6 +7,12 @@ namespace WinApp.Views.DonViHanhChinh
     {
         protected override void RenderCore(ViewContext context)
         {
+            context.Search = (item, searchKey) =>
+            {
+                var donVi = item as DonViHanhChinh;
+                searchKey = searchKey.ToLower();
+                return (donVi?.TenDonVi != null && donVi.TenDonVi.ToLower().Contains(searchKey));
+            };
             base.RenderCore(context);
             context.Title = "Danh sách đơn vị hành chính";
             context.TableColumns = new object[] {
@@ -20,10 +26,18 @@ namespace WinApp.Views.DonViHanhChinh
     {
         protected override void RenderCore(ViewContext context)
         {
+          
             context.Title = "Danh sách Huyện";
             context.TableColumns = new object[] {
                 new TableColumn { Name = "TenDonVi", Caption = "Tên Huyện", Width = 200, },
                 new TableColumn { Name = "TrucThuocID", Caption = "Trực Thuộc", Width = 200, },
+            };
+            context.Search = (item, searchKey) =>
+            {
+                var donVi = item as DonVi_Huyen;
+                searchKey = searchKey.ToLower();
+                return (donVi?.TenDonVi != null && donVi.TenDonVi.ToLower().Contains(searchKey))
+                || (donVi?.TrucThuocID != null && donVi.TrucThuocID.ToString().ToLower().Contains(searchKey));
             };
         }
     }
@@ -36,12 +50,26 @@ namespace WinApp.Views.DonViHanhChinh
                 new TableColumn { Name = "TenDonVi", Caption = "Tên Phường", Width = 200, },
                 new TableColumn { Name = "TrucThuocID", Caption = "Trực Thuộc", Width = 200, },
             };
+            context.Search = (item, searchKey) =>
+            {
+                var donVi = item as DonVi_Phuong;
+                searchKey = searchKey.ToLower();
+                return (donVi?.TenDonVi != null && donVi.TenDonVi.ToLower().Contains(searchKey))
+                || (donVi?.TrucThuocID != null && donVi.TrucThuocID.ToString().ToLower().Contains(searchKey));
+            };
         }
     }
     class ThongKeXa : BaseView<DataListViewLayout>
     {
         protected override void RenderCore(ViewContext context)
         {
+            context.Search = (item, searchKey) =>
+            {
+                var donVi = item as DonVi_Xa;
+                searchKey = searchKey.ToLower();
+                return (donVi?.TenDonVi != null && donVi.TenDonVi.ToLower().Contains(searchKey))
+                || (donVi?.TrucThuocID != null && donVi.TrucThuocID.ToString().ToLower().Contains(searchKey));
+            };
             context.Title = "Danh sách Xã";
             context.TableColumns = new object[] {
                 new TableColumn { Name = "TenDonVi", Caption = "Tên Xã", Width = 200, },

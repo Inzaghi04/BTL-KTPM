@@ -20,6 +20,8 @@ namespace WinApp.Views
     /// </summary>
     public partial class DataListViewLayout : UserControl, ILayout
     {
+        private IEnumerable<object> _originalItems; // Store the original items for resetting the search
+
         public void Render(ViewContext context)
         {
             var grid = (Vst.Controls.TableView)Body.Child;
@@ -29,28 +31,68 @@ namespace WinApp.Views
             {
                 grid.Columns.Add(c);
             }
-            var items = (IEnumerable<object>)context.Model;
-            grid.ItemsSource = items;
+            _originalItems = (IEnumerable<object>)context.Model; // Store original items
+            grid.ItemsSource = _originalItems;
             Total.Text = grid.RowsCount.ToString();
 
             if (context.Search != null)
             {
-                Header.SearchBox.Cleared += () => grid.ItemsSource = items;
-                Header.SearchBox.Searching += (s) => {
-                    var lst = new List<object>();
-                    
-                    s = s.ToLower();
-                    foreach (var i in items)
+                // Handle clear search action
+                Header.SearchBox.Cleared += () => grid.ItemsSource = _originalItems;
+
+                // Attempt to use the existing Searching event for real-time search
+                Header.SearchBox.Searching += (searchText) =>
+                {
+                    var searchTextLower = searchText?.ToLower() ?? string.Empty;
+                    if (string.IsNullOrEmpty(searchTextLower))
                     {
-                        if (context.Search(i, s))
-                        {
-                            lst.Add(i);
-                        }
+                        grid.ItemsSource = _originalItems; // Reset to original items if search is empty
                     }
-                    grid.ItemsSource = lst;
+                    else
+                    {
+                        var filteredItems = new List<object>();
+                        foreach (var item in _originalItems)
+                        {
+                            if (context.Search(item, searchTextLower))
+                            {
+                                filteredItems.Add(item);
+                            }
+                        }
+                        grid.ItemsSource = filteredItems;
+                    }
                 };
+
+                // Fallback: Check if SearchBox contains a TextBox and attach to TextChanged
+                if (Header.SearchBox is FrameworkElement element)
+                {
+                    var textBox = FindVisualChild<TextBox>(element);
+                    if (textBox != null)
+                    {
+                        textBox.TextChanged += (sender, e) =>
+                        {
+                            var searchTextLower = textBox.Text?.ToLower() ?? string.Empty;
+                            if (string.IsNullOrEmpty(searchTextLower))
+                            {
+                                grid.ItemsSource = _originalItems;
+                            }
+                            else
+                            {
+                                var filteredItems = new List<object>();
+                                foreach (var item in _originalItems)
+                                {
+                                    if (context.Search(item, searchTextLower))
+                                    {
+                                        filteredItems.Add(item);
+                                    }
+                                }
+                                grid.ItemsSource = filteredItems;
+                            }
+                        };
+                    }
+                }
             }
         }
+
         public DataListViewLayout()
         {
             InitializeComponent();
@@ -63,6 +105,25 @@ namespace WinApp.Views
             };
 
             Header.CreateAction(new ActionContext("Thêm mới", () => App.RedirectToAction("add")));
+        }
+
+        // Helper method to find a TextBox in the visual tree
+        private T FindVisualChild<T>(DependencyObject parent) where T : DependencyObject
+        {
+            for (int i = 0; i < VisualTreeHelper.GetChildrenCount(parent); i++)
+            {
+                var child = VisualTreeHelper.GetChild(parent, i);
+                if (child is T found)
+                {
+                    return found;
+                }
+                var result = FindVisualChild<T>(child);
+                if (result != null)
+                {
+                    return result;
+                }
+            }
+            return null;
         }
     }
 }
