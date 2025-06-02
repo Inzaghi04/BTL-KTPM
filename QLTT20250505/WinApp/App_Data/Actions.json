@@ -8,37 +8,20 @@
     "migrate/s/controller": "Controllers",
     "migrate/sql": "SQL",
     "migrate/s/proc": "Procedures",
-    "taikhoan": "Quản lý người dùng",
-    "taikhoan/lichsu": "Lịch sử đăng nhập",
+    "TaiKhoan": "Quản lý người dùng",
+    "TaiKhoan/lichsu": "Lịch sử đăng nhập",
     //"hanhchinh": "Quản lý hành chính",
     //"hanhchinh/huyen": "Đơn vị cấp huyện",
     //"hanhchinh/xa": "Đơn vị cấp xã",
     "me/changepass": "Đổi mật khẩu",
 
-    "coso": "Cơ sở",
-    "coso/index": "Danh sách cơ sở",
-    "coso/mohinhtrongtrot": "Số lượng cơ sở trồng trọt",
-    "coso/gietmo": "Cơ sở giết mổ",
-    "coso/chicucthuy": "Chi cục thú y",
-    "coso/dailybanthuoc": "Đại lý bán thuốc",
-    "coso/khutamgiu": "Khu tạm giữ, tiêu hủy",
 
-    "ToChucCaNhan": "Tổ chức cá nhân",
-    "ToChucCaNhan/index": "Danh mục tổ chức cá nhân",
-    "ToChucCaNhan/thongke": "Thống kê",
 
     "hotrongtrot/index": "Danh sách số hộ trồng trọt",
     "hotrongtrot/thongke": "Vùng trồng trọt đạt chuẩn",
 
-
-    "giaychungnhan/index": "Giấy Chứng Nhận",
-
-    "tochucchungnhan/index": "Tổ Chức Chứng Nhận",
-
     "vungtrongtrot": "Vùng trồng trọt",
     "vungtrongtrot/index": "Vùng trồng trọt",
-
-    "DieuKienTrongTrot/index": "Điều kiện trồng trọt",
 
     "DonViHanhChinh/index": " Tổng hợp đơn vị hành chính",
     "DonViHanhChinh/ThongKeHuyen": "Thống kê Huyện",
@@ -49,6 +32,11 @@
     "GiongCay/index": "Danh sách giống cây trồng",
     "GiongCay/ThongKeGiongCayLuuHanh": "Giống cây trồng lưu hành tại VN",
     "GiongCay/ThongKeCayDauDong": "Cây vườn đầu dòng",
+
+    "ThuocBaoVeThucVat": "Thuốc Bảo Vệ Thực Vật",
+    "ThuocBaoVeThucVat/index": "Thống kê thuốc bảo vệ thực vật",
+    "ThuocBaoVeThucVat/ToChuc": "Tổ Chức/Cá Nhân",
+    "ThuocBaoVeThucVat/CoSoBuonBan": "Cơ sở buôn bán",
 
     "qltt": "Quản Lý Trồng Trọt",
 
@@ -86,7 +74,7 @@
         "Childs": [
           {
             "Text": "Người dùng",
-            "Refs": [ "taikhoan", "taikhoan/lichsu" ]
+            "Refs": [ "TaiKhoan", "TaiKhoan/lichsu" ]
           },
           {
             "Text": "Đơn Vị Hành Chính",
@@ -111,31 +99,17 @@
             ]
           },
           {
-            "Text": "Điều kiện trồng trọt",
+            "Text": "Thuốc Bảo Vệ Thực Vật",
+            "Url": "ThuocBaoVeThucVat",
             "Refs": [
-              "DieuKienTrongTrot/index",
-              "hotrongtrot/thongke"
-            ]
-          },
-          {
-            "Text": "Cơ sở",
-            "Refs": [
-              "coso/index",
-              "coso/mohinhtrongtrot"
-            ]
-          },
-          {
-            "Text": "Tổ chức cá nhân",
-            "Url": "ToChucCaNhan",
-            "Refs": [
-              "ToChucCaNhan/index",
-              "giaychungnhan/index",
-              "tochucchungnhan/index"
+                "ThuocBaoVeThucVat/index",
+                "ThuocBaoVeThucVat/ToChuc",
+                "ThuocBaoVeThucVat/CoSoBuonBan"
             ]
           },
           {
             "Text": "Giống cây trồng",
-            "Url": "GiongCay",
+            //"Url": "GiongCay",
             "Refs": [
                 "GiongCay/index",
                 "GiongCay/ThongKeGiongCayLuuHanh",

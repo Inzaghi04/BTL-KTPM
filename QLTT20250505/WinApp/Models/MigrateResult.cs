@@ -22,75 +22,10 @@ namespace Models
 }
 namespace Models
 {
-    public partial class CoSo
-    {
-        public int? ID { get; set; }
-        public string TenCoSo { get; set; }
-        public string DiaChi { get; set; }
-        public DateTime? NgayCapGiayPhep { get; set; }
-        public int? LoaiCoSoID { get; set; }
-        public int? DonViHanhChinhID { get; set; }
-        public int? ToChuc_or_CaNhanID { get; set; }
-        public bool Loai  { get; set; }
-    }
     public partial class MoHinhTrongTrot
     {
         public string MoHinh { get; set; }
         public int? SoLuong { get; set; }
-    }
-    public partial class CoSoGietMo
-    {
-        public int? ID { get; set; }
-        public string TenCoSo { get; set; }
-        public string DiaChi { get; set; }
-        public DateTime? NgayCapGiayPhep { get; set; }
-        public int? LoaiCoSoID { get; set; }
-        public int? DonViHanhChinhID { get; set; }
-        public int? ToChuc_or_CaNhanID { get; set; }
-        public bool? Loai { get; set; }
-    }
-    public partial class ChiCucThuY
-    {
-        public int? ID { get; set; }
-        public string TenCoSo { get; set; }
-        public string DiaChi { get; set; }
-        public DateTime? NgayCapGiayPhep { get; set; }
-        public int? LoaiCoSoID { get; set; }
-        public int? DonViHanhChinhID { get; set; }
-        public int? ToChuc_or_CaNhanID { get; set; }
-        public bool? Loai { get; set; }
-    }
-    public partial class DaiLyBanThuoc
-    {
-        public int? ID { get; set; }
-        public string TenCoSo { get; set; }
-        public string DiaChi { get; set; }
-        public DateTime? NgayCapGiayPhep { get; set; }
-        public int? LoaiCoSoID { get; set; }
-        public int? DonViHanhChinhID { get; set; }
-        public int? ToChuc_or_CaNhanID { get; set; }
-        public bool? Loai { get; set; }
-    }
-    public partial class KhuTamGiu
-    {
-        public int? ID { get; set; }
-        public string TenCoSo { get; set; }
-        public string DiaChi { get; set; }
-        public DateTime? NgayCapGiayPhep { get; set; }
-        public int? LoaiCoSoID { get; set; }
-        public int? DonViHanhChinhID { get; set; }
-        public int? ToChuc_or_CaNhanID { get; set; }
-        public bool? Loai { get; set; }
-    }
-}
-namespace Models
-{
-    public partial class DieuKienTrongTrot
-    {
-        public int? ID { get; set; }
-        public int? HoTrongTrotID { get; set; }
-        public string MoTa { get; set; }
-        public DateTime? NgayCapNhat { get; set; }
     }
 }
 namespace Models
@@ -122,18 +57,6 @@ namespace Models
         public string TenDonVi { get; set; }
         public int? CapDoHanhChinhID { get; set; }
         public int? TrucThuocID { get; set; }
-    }
-}
-namespace Models
-{
-    public partial class GiayChungNhan
-    {
-        public int? ID { get; set; }
-        public int? ToChucChungNhanID { get; set; }
-        public string Ten { get; set; }
-        public int? ToChuc_or_CaNhanID { get; set; }
-        public DateTime? NgayCap { get; set; }
-        public DateTime? NgayHetHan { get; set; }
     }
 }
 namespace Models
@@ -206,35 +129,12 @@ namespace Models
 }
 namespace Models
 {
-
-    public partial class SanPhamConHan
-    {
-        public int? ID { get; set; }
-        public string TenSanPham { get; set; }
-        public string LoaiSanPham { get; set; }
-        public DateTime? NgaySanXuat { get; set; }
-        public DateTime? NgayHetHan { get; set; }
-        public int? CoSoID { get; set; }
-    }
-}
-namespace Models
-{
     public partial class TaiKhoan
     {
         public string Ten { get; set; }
         public string MatKhau { get; set; }
         public int? QuyenId { get; set; }
         public int? HoSoId { get; set; }
-    }
-}
-namespace Models
-{
-    public partial class ToChuc_or_CaNhan
-    {
-        public int? ID { get; set; }
-        public string Ten { get; set; }
-        public string DiaChi { get; set; }
-        public string Email_or_Phone { get; set; }
     }
 }
 namespace Models
@@ -297,5 +197,17 @@ namespace Models
 
         public string LoaiCay { get; set; }
         public string MoTa { get; set; }
+    }
+}
+
+namespace Models
+{
+    public partial class ThuocBaoVeThucVat
+    {
+        public int? ID { get; set; }
+        public string TenThuoc { get; set; }
+        public string LoaiThuoc { get; set; }
+        public int ? NgaySanXuat { get; set; }
+        public int? NgayHetHan { get; set; }
     }
 }

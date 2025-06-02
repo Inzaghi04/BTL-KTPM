@@ -11,9 +11,9 @@ namespace WinApp.Views.GiongCay
         {
             context.Search = (item, searchKey) =>
             {
-                var donVi = item as GiongCay;
+                var cay = item as GiongCay;
                 searchKey = searchKey.ToLower();
-                return (donVi?.TenGiongCay != null && donVi.TenGiongCay.ToLower().Contains(searchKey));
+                return (cay.TenGiongCay != null && cay.TenGiongCay.ToLower().Contains(searchKey));
             };
             base.RenderCore(context);
             context.Title = "Danh sách giống cây trồng";
@@ -30,9 +30,9 @@ namespace WinApp.Views.GiongCay
         {
             context.Search = (item, searchKey) =>
             {
-                var donVi = item as GiongCay;
+                var cay = item as CayDauDong;
                 searchKey = searchKey.ToLower();
-                return (donVi?.TenGiongCay != null && donVi.TenGiongCay.ToLower().Contains(searchKey));
+                return (cay.TenGiongCay != null && cay.TenGiongCay.ToLower().Contains(searchKey));
             };
             base.RenderCore(context);
             context.Title = "Giống cây/vườn đầu dòng";
@@ -49,9 +49,9 @@ namespace WinApp.Views.GiongCay
         {
             context.Search = (item, searchKey) =>
             {
-                var donVi = item as GiongCay;
+                var cay = item as GiongCayLuuHanh;
                 searchKey = searchKey.ToLower();
-                return (donVi?.TenGiongCay != null && donVi.TenGiongCay.ToLower().Contains(searchKey));
+                return (cay.TenGiongCay != null && cay.TenGiongCay.ToLower().Contains(searchKey));
             };
             base.RenderCore(context);
             context.Title = "Giống cây lưu hành tại Việt Nam";

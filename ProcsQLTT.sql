@@ -16,7 +16,15 @@ AS
 BEGIN
     IF @action = -1 -- DELETE
     BEGIN
-        DELETE FROM CapDoHanhChinh WHERE ID = @ID
+        -- Kiểm tra xem cấp độ hành chính có được tham chiếu không
+        IF NOT EXISTS (SELECT 1 FROM DonViHanhChinh WHERE CapDoHanhChinhID = @ID)
+        BEGIN
+            DELETE FROM CapDoHanhChinh WHERE ID = @ID
+        END
+        ELSE
+        BEGIN
+            RAISERROR('Không thể xóa cấp độ hành chính này vì nó đang được sử dụng', 16, 1)
+        END
         RETURN
     END
     
@@ -52,7 +60,7 @@ AS
 BEGIN
     IF @action = -1 -- DELETE
     BEGIN
-        -- Kiểm tra xem đơn vị này có được tham chiếu bởi các bảng khác trước khi xóa không
+        -- Kiểm tra xem đơn vị này có được tham chiếu bởi các bảng khác không
         IF NOT EXISTS (SELECT 1 FROM VungTrongTrot WHERE DonViHanhChinhID = @ID)
         AND NOT EXISTS (SELECT 1 FROM CoSo WHERE DonViHanhChinhID = @ID)
         AND NOT EXISTS (SELECT 1 FROM NguoiDung WHERE DonViHanhChinhID = @ID)
@@ -172,9 +180,10 @@ AS
 BEGIN
     IF @action = -1 -- DELETE
     BEGIN
-        -- Đầu tiên xóa hộ gia đình có liên quan
+        -- Đầu tiên xóa các bản ghi liên quan trong BanDoPhanBo và HoTrongTrot
+        DELETE FROM BanDoPhanBo WHERE VungTrongTrotID = @ID
         DELETE FROM HoTrongTrot WHERE VungTrongTrotID = @ID
-        -- Sau đó xóa vùng trồng trọt 
+        -- Sau đó xóa vùng trồng trọt
         DELETE FROM VungTrongTrot WHERE ID = @ID
         RETURN
     END
@@ -215,9 +224,9 @@ AS
 BEGIN
     IF @action = -1 -- DELETE
     BEGIN
+        -- Xóa các bản ghi liên quan
         DELETE FROM BanDoPhanBo WHERE CoSoID = @ID
         DELETE FROM SanPhamXuLyChatThai WHERE CoSoID = @ID
-        
         DELETE FROM CoSo WHERE ID = @ID
         RETURN
     END
@@ -259,9 +268,9 @@ AS
 BEGIN
     IF @action = -1 -- DELETE
     BEGIN
-        -- Đầu tiên xóa các điều kiện liên quan
+        -- Xóa các điều kiện liên quan
         DELETE FROM DieuKienTrongTrot WHERE HoTrongTrotID = @ID
-        -- Sau đó xóa hộ trồng trọt
+        -- Xóa hộ trồng trọt
         DELETE FROM HoTrongTrot WHERE ID = @ID
         RETURN
     END
@@ -346,7 +355,7 @@ AS
 BEGIN
     IF @action = -1 -- DELETE
     BEGIN
-        -- Kiểm tra xem tổ chức/cá nhân này có sở hữu bất kỳ cơ sở nào không
+        -- Kiểm tra xem tổ chức/cá nhân có sở hữu cơ sở hoặc chứng nhận không
         IF NOT EXISTS (SELECT 1 FROM CoSo WHERE ToChuc_or_CaNhanID = @ID)
         AND NOT EXISTS (SELECT 1 FROM GiayChungNhan WHERE ToChuc_or_CaNhanID = @ID)
         BEGIN
@@ -354,7 +363,7 @@ BEGIN
         END
         ELSE
         BEGIN
-            RAISERROR('Không thể xóa tổ chức/cá nhân này vì họ sở hữu cơ sở hoặc có chứng chỉ', 16, 1)
+            RAISERROR('Không thể xóa tổ chức/cá nhân này vì họ sở hữu cơ sở hoặc có chứng nhận', 16, 1)
         END
         RETURN
     END
@@ -411,8 +420,8 @@ BEGIN
     END
     
     -- INSERT
-    INSERT INTO GiayChungNhan (ToChucChungNhanID, Ten, ToChuc_or_CaNhanID, NgayCap, NgayHetHan)
-    VALUES (@ToChucChungNhanID, @Ten, @ToChuc_or_CaNhanID, @NgayCap, @NgayHetHan)
+    INSERT INTO GiayChungNhan (ID, ToChucChungNhanID, Ten, ToChuc_or_CaNhanID, NgayCap, NgayHetHan)
+    VALUES (@ID, @ToChucChungNhanID, @Ten, @ToChuc_or_CaNhanID, @NgayCap, @NgayHetHan)
     
     SET @ID = SCOPE_IDENTITY()
 END
@@ -572,14 +581,14 @@ AS
 BEGIN
     IF @action = -1 -- DELETE
     BEGIN
-        -- Kiểm tra xem cơ quan chứng nhận này có cấp bất kỳ chứng chỉ nào không
+        -- Kiểm tra xem tổ chức chứng nhận có cấp chứng nhận không
         IF NOT EXISTS (SELECT 1 FROM GiayChungNhan WHERE ToChucChungNhanID = @ID)
         BEGIN
             DELETE FROM ToChucChungNhan WHERE ID = @ID
         END
         ELSE
         BEGIN
-            RAISERROR('Không thể xóa tổ chức chứng nhận này vì nó đã cấp chứng chỉ', 16, 1)
+            RAISERROR('Không thể xóa tổ chức chứng nhận này vì nó đã cấp chứng nhận', 16, 1)
         END
         RETURN
     END
@@ -643,63 +652,9 @@ BEGIN
 END
 GO
 
--- Xóa procedure nếu đã có
-DROP PROC IF EXISTS sp_GiongCay_CRUD;
+DROP PROC IF EXISTS sp_GiongCayLuuHanh_CRUD
 GO
 
--- Tạo procedure CRUD cho GiongCay
-CREATE PROC sp_GiongCay_CRUD
-(
-    @action INT,
-    @ID INT OUTPUT,
-    @TenGiongCay NVARCHAR(100) = NULL,
-    @LoaiCay NVARCHAR(50) = NULL,
-    @MoTa NVARCHAR(255) = NULL
-)
-AS
-BEGIN
-    -- Xóa
-    IF @action = -1
-    BEGIN
-        -- Kiểm tra xem giống cây có được tham chiếu bởi GiongCayLuuHanh hoặc CayDauDong không
-        IF NOT EXISTS (SELECT 1 FROM GiongCayLuuHanh WHERE TenGiongCay = (SELECT TenGiongCay FROM GiongCay WHERE ID = @ID))
-        AND NOT EXISTS (SELECT 1 FROM CayDauDong WHERE TenGiongCay = (SELECT TenGiongCay FROM GiongCay WHERE ID = @ID))
-        BEGIN
-            DELETE FROM GiongCay WHERE ID = @ID
-        END
-        ELSE
-        BEGIN
-            RAISERROR('Không thể xóa giống cây này vì nó được sử dụng trong GiongCayLuuHanh hoặc CayDauDong', 16, 1)
-        END
-        RETURN
-    END
-
-    -- Cập nhật
-    IF @action = 0
-    BEGIN
-        UPDATE GiongCay SET
-            TenGiongCay = ISNULL(@TenGiongCay, TenGiongCay),
-            LoaiCay = ISNULL(@LoaiCay, LoaiCay),
-            MoTa = ISNULL(@MoTa, MoTa)
-        WHERE ID = @ID
-        RETURN
-    END
-
-    -- Thêm mới
-    IF @action = 1
-    BEGIN
-        INSERT INTO GiongCay (TenGiongCay, LoaiCay, MoTa)
-        VALUES (@TenGiongCay, @LoaiCay, @MoTa)
-        SET @ID = SCOPE_IDENTITY()
-    END
-END
-GO
-
--- Xóa procedure nếu đã có
-DROP PROC IF EXISTS sp_GiongCayLuuHanh_CRUD;
-GO
-
--- Tạo procedure CRUD cho GiongCayLuuHanh
 CREATE PROC sp_GiongCayLuuHanh_CRUD
 (
     @action INT,
@@ -710,63 +665,43 @@ CREATE PROC sp_GiongCayLuuHanh_CRUD
 )
 AS
 BEGIN
-    -- Xóa
-    IF @action = -1
+    IF @action = -1 -- DELETE
     BEGIN
         DELETE FROM GiongCayLuuHanh WHERE ID = @ID
         RETURN
     END
-
-    -- Cập nhật
-    IF @action = 0
+    
+    IF @action = 0 -- UPDATE
     BEGIN
-        -- Kiểm tra xem TenGiongCay và LoaiCay có tồn tại trong GiongCay không
-        IF EXISTS (SELECT 1 FROM GiongCay WHERE TenGiongCay = @TenGiongCay AND LoaiCay = @LoaiCay)
-        BEGIN
-            UPDATE GiongCayLuuHanh SET
-                TenGiongCay = ISNULL(@TenGiongCay, TenGiongCay),
-                LoaiCay = ISNULL(@LoaiCay, LoaiCay),
-                MoTa = ISNULL(@MoTa, MoTa)
-            WHERE ID = @ID
-        END
-        ELSE
-        BEGIN
-            RAISERROR('Giống cây không tồn tại trong bảng GiongCay', 16, 1)
-        END
+        UPDATE GiongCayLuuHanh SET
+            TenGiongCay = ISNULL(@TenGiongCay, TenGiongCay),
+            LoaiCay = ISNULL(@LoaiCay, LoaiCay),
+            MoTa = ISNULL(@MoTa, MoTa)
+        WHERE ID = @ID
         RETURN
     END
-
-    -- Thêm mới
+    
+    -- INSERT
     IF @action = 1
     BEGIN
-        -- Kiểm tra xem TenGiongCay và LoaiCay có tồn tại trong GiongCay không
-        IF EXISTS (SELECT 1 FROM GiongCay WHERE TenGiongCay = @TenGiongCay AND LoaiCay = @LoaiCay)
+        -- Kiểm tra xem giống cây đã tồn tại trong CayDauDong chưa
+        IF NOT EXISTS (SELECT 1 FROM CayDauDong WHERE TenGiongCay = @TenGiongCay)
         BEGIN
-            -- Kiểm tra xem giống cây đã tồn tại trong CayDauDong chưa
-            IF NOT EXISTS (SELECT 1 FROM CayDauDong WHERE TenGiongCay = @TenGiongCay)
-            BEGIN
-                INSERT INTO GiongCayLuuHanh (TenGiongCay, LoaiCay, MoTa)
-                VALUES (@TenGiongCay, @LoaiCay, @MoTa)
-                SET @ID = SCOPE_IDENTITY()
-            END
-            ELSE
-            BEGIN
-                RAISERROR('Giống cây này đã tồn tại trong CayDauDong', 16, 1)
-            END
+            INSERT INTO GiongCayLuuHanh (TenGiongCay, LoaiCay, MoTa)
+            VALUES (@TenGiongCay, @LoaiCay, @MoTa)
+            SET @ID = SCOPE_IDENTITY()
         END
         ELSE
         BEGIN
-            RAISERROR('Giống cây không tồn tại trong bảng GiongCay', 16, 1)
+            RAISERROR('Giống cây này đã tồn tại trong CayDauDong', 16, 1)
         END
     END
 END
 GO
 
--- Xóa procedure nếu đã có
-DROP PROC IF EXISTS sp_CayDauDong_CRUD;
+DROP PROC IF EXISTS sp_CayDauDong_CRUD
 GO
 
--- Tạo procedure CRUD cho CayDauDong
 CREATE PROC sp_CayDauDong_CRUD
 (
     @action INT,
@@ -777,54 +712,75 @@ CREATE PROC sp_CayDauDong_CRUD
 )
 AS
 BEGIN
-    -- Xóa
-    IF @action = -1
+    IF @action = -1 -- DELETE
     BEGIN
         DELETE FROM CayDauDong WHERE ID = @ID
         RETURN
     END
-
-    -- Cập nhật
-    IF @action = 0
+    
+    IF @action = 0 -- UPDATE
     BEGIN
-        -- Kiểm tra xem TenGiongCay và LoaiCay có tồn tại trong GiongCay không
-        IF EXISTS (SELECT 1 FROM GiongCay WHERE TenGiongCay = @TenGiongCay AND LoaiCay = @LoaiCay)
-        BEGIN
-            UPDATE CayDauDong SET
-                TenGiongCay = ISNULL(@TenGiongCay, TenGiongCay),
-                LoaiCay = ISNULL(@LoaiCay, LoaiCay),
-                MoTa = ISNULL(@MoTa, MoTa)
-            WHERE ID = @ID
-        END
-        ELSE
-        BEGIN
-            RAISERROR('Giống cây không tồn tại trong bảng GiongCay', 16, 1)
-        END
+        UPDATE CayDauDong SET
+            TenGiongCay = ISNULL(@TenGiongCay, TenGiongCay),
+            LoaiCay = ISNULL(@LoaiCay, LoaiCay),
+            MoTa = ISNULL(@MoTa, MoTa)
+        WHERE ID = @ID
         RETURN
     END
-
-    -- Thêm mới
+    
+    -- INSERT
     IF @action = 1
     BEGIN
-        -- Kiểm tra xem TenGiongCay và LoaiCay có tồn tại trong GiongCay không
-        IF EXISTS (SELECT 1 FROM GiongCay WHERE TenGiongCay = @TenGiongCay AND LoaiCay = @LoaiCay)
+        -- Kiểm tra xem giống cây đã tồn tại trong GiongCayLuuHanh chưa
+        IF NOT EXISTS (SELECT 1 FROM GiongCayLuuHanh WHERE TenGiongCay = @TenGiongCay)
         BEGIN
-            -- Kiểm tra xem giống cây đã tồn tại trong GiongCayLuuHanh chưa
-            IF NOT EXISTS (SELECT 1 FROM GiongCayLuuHanh WHERE TenGiongCay = @TenGiongCay)
-            BEGIN
-                INSERT INTO CayDauDong (TenGiongCay, LoaiCay, MoTa)
-                VALUES (@TenGiongCay, @LoaiCay, @MoTa)
-                SET @ID = SCOPE_IDENTITY()
-            END
-            ELSE
-            BEGIN
-                RAISERROR('Giống cây này đã tồn tại trong GiongCayLuuHanh', 16, 1)
-            END
+            INSERT INTO CayDauDong (TenGiongCay, LoaiCay, MoTa)
+            VALUES (@TenGiongCay, @LoaiCay, @MoTa)
+            SET @ID = SCOPE_IDENTITY()
         END
         ELSE
         BEGIN
-            RAISERROR('Giống cây không tồn tại trong bảng GiongCay', 16, 1)
+            RAISERROR('Giống cây này đã tồn tại trong GiongCayLuuHanh', 16, 1)
         END
     END
+END
+GO
+
+DROP PROC IF EXISTS sp_ThuocBaoVeThucVat_CRUD
+GO
+
+CREATE PROC sp_ThuocBaoVeThucVat_CRUD
+(
+    @action INT,
+    @ID INT OUTPUT,
+    @TenThuoc NVARCHAR(255) = NULL,
+    @LoaiThuoc NVARCHAR(255) = NULL,
+    @NgaySanXuat DATE = NULL,
+    @NgayHetHan DATE = NULL
+)
+AS
+BEGIN
+    IF @action = -1 -- DELETE
+    BEGIN
+        DELETE FROM ThuocBaoVeThucVat WHERE ID = @ID
+        RETURN
+    END
+    
+    IF @action = 0 -- UPDATE
+    BEGIN
+        UPDATE ThuocBaoVeThucVat SET
+            TenThuoc = ISNULL(@TenThuoc, TenThuoc),
+            LoaiThuoc = ISNULL(@LoaiThuoc, LoaiThuoc),
+            NgaySanXuat = ISNULL(@NgaySanXuat, NgaySanXuat),
+            NgayHetHan = ISNULL(@NgayHetHan, NgayHetHan)
+        WHERE ID = @ID
+        RETURN
+    END
+    
+    -- INSERT
+    INSERT INTO ThuocBaoVeThucVat (TenThuoc, LoaiThuoc, NgaySanXuat, NgayHetHan)
+    VALUES (@TenThuoc, @LoaiThuoc, @NgaySanXuat, @NgayHetHan)
+    
+    SET @ID = SCOPE_IDENTITY()
 END
 GO

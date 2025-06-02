@@ -301,25 +301,6 @@ FROM HoTrongTrot h
 JOIN VungTrongTrot v ON h.VungTrongTrotID = v.ID
 ORDER BY h.NgayThongKe DESC;
 
-CREATE TABLE DieuKienTrongTrot
-(
-ID int primary key identity
-,HoTrongTrotID int foreign key references HoTrongTrot(ID)
-,MoTa nvarchar(250)
-,NgayCapNhat date
-);
-INSERT INTO DieuKienTrongTrot (HoTrongTrotID, MoTa, NgayCapNhat) VALUES
-(1, N'Hệ thống chuồng trại đạt chuẩn, đảm bảo vệ sinh', '2025-01-20'),
-(2, N'trồng trọt gà thả vườn, nguồn nước sạch', '2025-02-15'),
-(3, N'Chuồng trại cũ, cần cải tạo hệ thống thoát nước', '2025-03-10'),
-(4, N'Sử dụng thức ăn hữu cơ, không hóa chất', '2025-03-25'),
-(5, N'Hệ thống xử lý chất thải đạt tiêu chuẩn', '2025-04-05');
--- Điều kiện các hộ trồng trọt
-SELECT d.ID, v.TenVungTrongTrot, h.SoHo, d.MoTa, d.NgayCapNhat
-FROM DieuKienTrongTrot d
-JOIN HoTrongTrot h ON d.HoTrongTrotID = h.ID
-JOIN VungTrongTrot v ON h.VungTrongTrotID = v.ID
-ORDER BY d.NgayCapNhat DESC;
 
 CREATE TABLE VaiTro
 (
@@ -370,21 +351,6 @@ insert into LoaiCoSo (TenLoaiCoSo) values
 (N'Nhà máy chế biến thức ăn trồng trọt'),
 (N'Cơ sở xử lý chất thải');
 
-
-CREATE TABLE ToChuc_or_CaNhan
-(
-ID int primary key identity
-,Ten nvarchar (50)
-,DiaChi nvarchar(50)
-,Email_or_Phone nvarchar(50)
-)
-
-INSERT INTO ToChuc_or_CaNhan (Ten, DiaChi, Email_or_Phone) VALUES
-(N'Công ty TNHH trồng trọt Vĩnh Phúc', N'123 Đường Láng, Vĩnh Yên', N'vinhphucfarm@gmail.com'),
-(N'Hộ ông Nguyễn Văn An', N'Thôn 2, Xã Thanh Trù', N'0912345678'),
-(N'Công ty CP Thức ăn trồng trọt Minh Quang', N'xã Minh Quang, huyện Tam Đảo', N'minhquangfeed@gmail.com'),
-(N'Hộ bà Trần Thị Bích', N'Xã Sơn Lôi, huyện Bình Xuyên', N'0923456789'),
-(N'Cơ sở giết mổ Hợp Lý', N'Hợp Lý,huyện Lập Thạch', N'0934567890');
 
 CREATE TABLE CoSo
 (
@@ -463,18 +429,6 @@ SELECT l.ID, n.UserName,  FORMAT(ThoiGianTruyCap, 'yyyy-MM-dd HH:mm:ss') AS Thoi
 FROM LichSuTruyCap l
 JOIN NguoiDung n ON l.NguoiDungID = n.ID
 ORDER BY l.ThoiGianTruyCap DESC;
-
-CREATE TABLE ToChucChungNhan
-(
-ID int primary key identity
-,Ten nvarchar(50)
-,DiaChi nvarchar(50)
-,Email_or_Phone nvarchar(50)
-)
-INSERT INTO ToChucChungNhan (Ten, DiaChi, Email_or_Phone) VALUES
-(N'Cục trồng trọt Việt Nam', N'Hà Nội', N'TrongTrot@vn.gov.vn'),
-(N'Trung tâm Kiểm định Vĩnh Phúc', N'Vĩnh Yên', N'kiemdinhvp@gmail.com'),
-(N'Công ty Chứng nhận VietCert', N'TP.HCM', N'vietcert@gmail.com');
 
 
 CREATE TABLE SanPhamXuLyChatThai
@@ -624,6 +578,30 @@ INSERT INTO CayDauDong (TenGiongCay, LoaiCay, MoTa) VALUES
 	(N'Mít Thái Siêu Sớm', N'Cây ăn quả', N'Giống mít cho trái sớm, múi dày và ngọt'),
     (N'Cao su RRIV 4', N'Cây công nghiệp', N'Giống cao su năng suất cao');
 
+USE QuanLyTrongTrot
+GO
+
+CREATE TABLE ThuocBaoVeThucVat
+(
+    ID INT NOT NULL PRIMARY KEY IDENTITY,
+    TenThuoc NVARCHAR(255) NOT NULL,
+    LoaiThuoc NVARCHAR(255) NOT NULL,
+    NgaySanXuat DATE NOT NULL,
+    NgayHetHan DATE NOT NULL
+);
+
+INSERT INTO ThuocBaoVeThucVat (TenThuoc, LoaiThuoc, NgaySanXuat, NgayHetHan) VALUES
+(N'Actara 25WG', N'Thuốc trừ sâu', '2025-01-10', '2027-01-10'),
+(N'Ridomil Gold', N'Thuốc trừ nấm', '2025-02-15', '2027-02-15'),
+(N'Roundup', N'Thuốc diệt cỏ', '2025-03-01', '2027-03-01'),
+(N'Antracol 70WP', N'Thuốc trừ nấm', '2025-03-20', '2027-03-20'),
+(N'Confidor 100SL', N'Thuốc trừ sâu', '2025-04-01', '2027-04-01');
+
+-- Truy vấn danh sách thuốc bảo vệ thực vật
+SELECT ID, TenThuoc, LoaiThuoc, NgaySanXuat, NgayHetHan
+FROM ThuocBaoVeThucVat
+WHERE NgayHetHan > GETDATE()
+ORDER BY NgaySanXuat DESC;
 -- 4. Tạo VIEW tổng hợp danh mục giống cây trồng chính từ hai bảng
 GO
 CREATE VIEW GiongCay AS
