@@ -65,6 +65,7 @@
     <Compile Include="Actors\User.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\CoSoBuonBanController.cs" />
     <Compile Include="Controllers\DonViHanhChinhController.cs" />
     <Compile Include="Controllers\GiongCayController.cs" />
     <Compile Include="Controllers\HoTrongTrotController.cs" />
@@ -73,8 +74,11 @@
     <Compile Include="Controllers\MeController.cs" />
     <Compile Include="Controllers\MigrateController.cs" />
     <Compile Include="Controllers\MigrateResult.cs" />
+    <Compile Include="Controllers\PhanBonController.cs" />
     <Compile Include="Controllers\QLTTController.cs" />
     <Compile Include="Controllers\TaiKhoanController.cs" />
+    <Compile Include="Controllers\ThuocBaoVeThucVatController.cs" />
+    <Compile Include="Controllers\ToChucCaNhanSanXuatController.cs" />
     <Compile Include="Controllers\VungTrongTrotController.cs" />
     <Compile Include="Models\%28Document%29.cs" />
     <Compile Include="Models\Account.cs" />
@@ -89,6 +93,7 @@
     <Compile Include="Models\VungTrongTrot.cs" />
     <Compile Include="Views\Admin\Test.cs" />
     <Compile Include="Views\BaseView.cs" />
+    <Compile Include="Views\CoSoBuonBan\CoSoBuonBanManager.cs" />
     <Compile Include="Views\DonViHanhChinh\DonViHanhChinhManager.cs" />
     <Compile Include="Views\GiongCay\GiongCayManager.cs" />
     <Compile Include="Views\HoTrongTrot\HoTrongTrotManager.cs" />
@@ -100,7 +105,10 @@
     <Compile Include="Views\Migrate\MigrateLayout.xaml.cs">
       <DependentUpon>MigrateLayout.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\PhanBon\PhanBonManager.cs" />
     <Compile Include="Views\TaiKhoan\TaiKhoanManagerView.cs" />
+    <Compile Include="Views\ThuocBaoVeThucVat\ThuocBaoVeThucVatManager.cs" />
+    <Compile Include="Views\ToChucCaNhanSanXuat\ToChucCaNhanSanXuatManager.cs" />
     <Compile Include="Views\VungTrongTrot\VungTrongTrotManager.cs" />
     <Compile Include="Views\_layouts\PageHeader.xaml.cs">
       <DependentUpon>PageHeader.xaml</DependentUpon>

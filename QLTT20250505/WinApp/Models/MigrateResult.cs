@@ -37,7 +37,7 @@ namespace Models
         public int? CapDoHanhChinhID { get; set; }
         public int? TrucThuocID { get; set; }
     }
-    public partial class DonVi_Huyen
+    public partial class DonVi_Huyen 
     {
         public int? ID { get; set; }
         public string TenDonVi { get; set; }
@@ -204,10 +204,51 @@ namespace Models
 {
     public partial class ThuocBaoVeThucVat
     {
-        public int? ID { get; set; }
+        public int ID { get; set; }
         public string TenThuoc { get; set; }
         public string LoaiThuoc { get; set; }
-        public int ? NgaySanXuat { get; set; }
-        public int? NgayHetHan { get; set; }
+        public DateTime NgaySanXuat { get; set; }
+        public DateTime NgayHetHan { get; set; }
+    }
+}
+
+namespace Models
+{
+    public partial class ToChucCaNhanSanXuat
+    {
+        public int ID { get; set; }
+        public int ToChuc_or_CaNhanID { get; set; }
+        public int? CoSoID { get; set; } // Nullable vì CoSoID có thể NULL trong SQL
+        public string GiayPhepSanXuat { get; set; } // NVARCHAR(50)
+        public DateTime NgayCapGiayPhep { get; set; } // DATE
+        public DateTime? NgayHetHan { get; set; } // Nullable vì NgayHetHan có thể NULL
+        public string MoTa { get; set; } // NVARCHAR(250)
+        public string TrangThai { get; set; } // NVARCHAR(50)
+
+    }
+}
+
+namespace Models
+{
+    public partial class CoSoBuonBan
+    {
+        public int ID { get; set; }
+        public string TenCoSo { get; set; } // NVARCHAR(100)
+        public string DiaChi { get; set; } // NVARCHAR(250)
+        public string SoGiayPhepKinhDoanh { get; set; } // NVARCHAR(15)
+
+        public DateTime NgayCapGiayPhep { get; set; } // DATE
+    }
+}
+namespace Models
+{
+    public partial class  PhanBon 
+    {
+        public int ID { get; set; }
+        public string TenPhanBon { get; set; } // NVARCHAR(100)
+        public string LoaiPhanBon { get; set; } // NVARCHAR(50)
+        public DateTime NgaySanXuat { get; set; } // DATE
+        public DateTime NgayHetHan { get; set; } // DATE
+        public string MoTa { get; set; } // NVARCHAR(250)
     }
 }
