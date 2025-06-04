@@ -66,9 +66,10 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CoSoBuonBanController.cs" />
+    <Compile Include="Controllers\CoSoBuonBanPhanBonController.cs" />
+    <Compile Include="Controllers\CoSoVietGapController.cs" />
     <Compile Include="Controllers\DonViHanhChinhController.cs" />
     <Compile Include="Controllers\GiongCayController.cs" />
-    <Compile Include="Controllers\HoTrongTrotController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\MeController.cs" />
@@ -76,9 +77,11 @@
     <Compile Include="Controllers\MigrateResult.cs" />
     <Compile Include="Controllers\PhanBonController.cs" />
     <Compile Include="Controllers\QLTTController.cs" />
+    <Compile Include="Controllers\SinhVatGayHaiController.cs" />
     <Compile Include="Controllers\TaiKhoanController.cs" />
     <Compile Include="Controllers\ThuocBaoVeThucVatController.cs" />
     <Compile Include="Controllers\ToChucCaNhanSanXuatController.cs" />
+    <Compile Include="Controllers\ToChucCaNhanSanXuatPhanBonController.cs" />
     <Compile Include="Controllers\VungTrongTrotController.cs" />
     <Compile Include="Models\%28Document%29.cs" />
     <Compile Include="Models\Account.cs" />
@@ -93,10 +96,11 @@
     <Compile Include="Models\VungTrongTrot.cs" />
     <Compile Include="Views\Admin\Test.cs" />
     <Compile Include="Views\BaseView.cs" />
+    <Compile Include="Views\CoSoBuonBanPhanBon\CoSoBuonBanPhanBonManager.cs" />
     <Compile Include="Views\CoSoBuonBan\CoSoBuonBanManager.cs" />
+    <Compile Include="Views\CoSoVietGap\CoSoVietGapManager.cs" />
     <Compile Include="Views\DonViHanhChinh\DonViHanhChinhManager.cs" />
     <Compile Include="Views\GiongCay\GiongCayManager.cs" />
-    <Compile Include="Views\HoTrongTrot\HoTrongTrotManager.cs" />
     <Compile Include="Views\Home\Admin.cs" />
     <Compile Include="Views\Home\Developer.cs" />
     <Compile Include="Views\Home\Loading.cs" />
@@ -106,8 +110,10 @@
       <DependentUpon>MigrateLayout.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\PhanBon\PhanBonManager.cs" />
+    <Compile Include="Views\SinhVatGayHai\SinhVatGayHaiManager.cs" />
     <Compile Include="Views\TaiKhoan\TaiKhoanManagerView.cs" />
     <Compile Include="Views\ThuocBaoVeThucVat\ThuocBaoVeThucVatManager.cs" />
+    <Compile Include="Views\ToChucCaNhanSanXuatPhanBon\ToChucCaNhanSanXuatPhanBonManager.cs" />
     <Compile Include="Views\ToChucCaNhanSanXuat\ToChucCaNhanSanXuatManager.cs" />
     <Compile Include="Views\VungTrongTrot\VungTrongTrotManager.cs" />
     <Compile Include="Views\_layouts\PageHeader.xaml.cs">

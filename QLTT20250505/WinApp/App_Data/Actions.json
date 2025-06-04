@@ -17,11 +17,11 @@
 
 
 
-        "hotrongtrot/index": "Danh sách số hộ trồng trọt",
-        "hotrongtrot/thongke": "Vùng trồng trọt đạt chuẩn",
-
         "vungtrongtrot": "Vùng trồng trọt",
         "vungtrongtrot/index": "Vùng trồng trọt",
+        "CoSoVietGap/index": "Cơ sở đạt tiêu chuẩn VietGap",
+        "SinhVatGayHai/index": "Sinh vật gây hại",
+        "SinhVatGayHai/SauBenh": "Sâu bệnh",
 
         "DonViHanhChinh/index": " Tổng hợp đơn vị hành chính",
         "DonViHanhChinh/ThongKeHuyen": "Thống kê Huyện",
@@ -41,7 +41,7 @@
         "PhanBon": "Phân bón",
         "PhanBon/index": "Danh sách phân bón",
         "ToChucCaNhanSanXuatPhanBon/index": "Tổ chức/Cá nhân",
-        "PhanBoCoSoSanXuatBuonBan/index": "Cơ sở/sản xuất buôn bán phân bón",
+        "CoSoBuonBanPhanBon/index": "Cơ sở buôn bán phân bón",
 
         "qltt": "Quản Lý Trồng Trọt",
 
@@ -94,24 +94,6 @@
       },
       "qltt": {
         "Childs": [
-          {
-            "Text": "Vùng trồng trọt",
-            "Refs": [
-              "vungtrongtrot/index",
-              "hotrongtrot/index"
-              //"hotrongtrot/thongke"
-
-            ]
-          },
-          {
-            "Text": "Thuốc Bảo Vệ Thực Vật",
-            //"Url": "ThuocBaoVeThucVat",
-            "Refs": [
-                "ThuocBaoVeThucVat/index",
-                "ToChucCaNhanSanXuat/index",
-                "CoSoBuonBan/index"
-            ]
-          },
             {
                 "Text": "Giống cây trồng",
                 //"Url": "GiongCay",
@@ -122,11 +104,32 @@
                 ]
             },
             {
+                "Text": "Thuốc Bảo Vệ Thực Vật",
+                //"Url": "ThuocBaoVeThucVat",
+                "Refs": [
+                    "ThuocBaoVeThucVat/index",
+                    "ToChucCaNhanSanXuat/index",
+                    "CoSoBuonBan/index"
+                ]
+            },
+
+            {
                 "Text": "Phân bón",
                 "Refs": [
                     "PhanBon/index",
                     "ToChucCaNhanSanXuatPhanBon/index",
-                    "PhanBoCoSoSanXuatBuonBan/index"
+                    "CoSoBuonBanPhanBon/index"
+                ]
+            },
+            {
+                "Text": "Sản xuất trồng trọt",
+                "Refs": [
+                    "vungtrongtrot/index",
+                    "CoSoVietGap/index",
+                    "SinhVatGayHai/index",
+                    "SinhVatGayHai/SauBenh"
+                    //"hotrongtrot/thongke"
+
                 ]
             }
         ]

@@ -10,7 +10,7 @@ namespace WinApp.Controllers
     {
         public override object Index()
         {
-            return Redirect("VungTrongTrot");
+            return Redirect("GiongCay");
         }
         //public override object Index()
         //{

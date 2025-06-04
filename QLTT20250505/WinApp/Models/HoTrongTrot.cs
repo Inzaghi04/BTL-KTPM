@@ -8,7 +8,7 @@ namespace Models
 {
     partial class HoTrongTrot
     {
-        public string KiemDinh => KQ ? "Đạt chuẩn" : "Chưa đạt chuẩn";
+        public string KiemDinh => KQ ? "Đạt chuẩn" : "Chưa đạtchuẩn";
         public string VungTrongTrot
         {
             get

@@ -218,6 +218,8 @@ namespace Models
     {
         public int ID { get; set; }
         public int ToChuc_or_CaNhanID { get; set; }
+
+        public string TenCoSo { get; set; }
         public int? CoSoID { get; set; } // Nullable vì CoSoID có thể NULL trong SQL
         public string GiayPhepSanXuat { get; set; } // NVARCHAR(50)
         public DateTime NgayCapGiayPhep { get; set; } // DATE
@@ -251,4 +253,74 @@ namespace Models
         public DateTime NgayHetHan { get; set; } // DATE
         public string MoTa { get; set; } // NVARCHAR(250)
     }
+}
+namespace Models
+{
+    public partial class ToChucCaNhanSanXuatPhanBon
+    {
+        public int ID { get; set; }
+
+        public string TenCoSo { get; set; }
+
+        public string GiayPhepSanXuat { get; set; }
+        public DateTime NgayCapGiayPhep { get; set; }
+        public DateTime NgayHetHan { get; set; }
+        public string MoTa { get; set; }
+
+        public string TrangThai {  get; set; }
+    }
+}
+namespace Models
+{
+    public partial class CoSoBuonBanPhanBon
+    {
+        public int ID { get; set; }
+
+        public string TenCoSo { get; set; }
+
+        public string DiaChi { get; set; }
+
+        public string SoGiayPhepKinhDoanh {  get; set; }
+        
+        public DateTime NgayCapGiayPhep { get; set; }
+    }
+}
+
+namespace Models
+{
+    public partial class CoSoVietGap
+    {
+        public int ID { get; set; }
+
+        public string TenCoSo { get; set; }
+
+        public string DiaChi { get; set; }
+
+        public string SoGiayPhepVietGap { get; set; }
+
+        public DateTime NgayCapGiayPhep { get; set; }
+        public DateTime NgayHetHan { get; set; }
+    }
+}
+
+namespace Models
+{
+    public partial class SinhVatGayHai
+    {
+
+        public string TenSinhVat { get; set; }
+
+        public string LoaiSinhVat { get; set; }
+        public DateTime NgayPhatHien { get; set; }
+
+        public string MoTa { get; set; }
+
+    }
+    public partial class TuoiSau_CapDoPhoBien
+    {
+        public string TenSinhVat { get; set; }
+        public string TenTuoiSau { get; set; }
+        public string TenCapDoPhoBien { get; set; }
+    }
+
 }

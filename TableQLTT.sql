@@ -230,23 +230,6 @@ INSERT INTO VungTrongTrot (TenVungTrongTrot, MoTa, DonViHanhChinhID) VALUES
     (N'Vùng trồng trọt Sơn Lôi', N'Vùng an toàn dịch bệnh', (SELECT ID FROM DonViHanhChinh WHERE TenDonVi = N'Xã Sơn Lôi'))
 GO
 
--- Bảng HoTrongTrot
-CREATE TABLE HoTrongTrot
-(
-    ID INT PRIMARY KEY IDENTITY,
-    VungTrongTrotID INT FOREIGN KEY REFERENCES VungTrongTrot(ID),
-    SoHo INT,
-    KQ BIT,
-    NgayThongKe DATE
-)
-GO
-INSERT INTO HoTrongTrot (VungTrongTrotID, SoHo, KQ, NgayThongKe) VALUES
-    (1, 50, 1, '2025-01-15'),
-    (2, 30, 0, '2025-02-10'),
-    (3, 40, 1, '2025-03-05'),
-    (4, 25, 1, '2025-03-20'),
-    (5, 35, 0, '2025-04-01')
-GO
 
 -- Bảng VaiTro
 CREATE TABLE VaiTro
@@ -301,7 +284,8 @@ INSERT INTO LoaiCoSo (TenLoaiCoSo) VALUES
     (N'Cơ sở giết mổ'),
     (N'Nhà máy chế biến thức ăn trồng trọt'),
     (N'Cơ sở xử lý chất thải'),
-    (N'Cơ sở buôn bán thuốc BVTV')
+    (N'Cơ sở buôn bán thuốc BVTV'),
+    (N'Cơ sở VietGAP')
 GO
 
 -- Bảng ToChuc_or_CaNhan
@@ -360,6 +344,49 @@ INSERT INTO CoSoBuonBan (TenCoSo, DiaChi, SoGiayPhepKinhDoanh, NgayCapGiayPhep, 
     (N'Cửa hàng Ngọc Thanh', N'Ngọc Thanh, Phúc Yên', N'GDKD-003', '2025-01-15', 5, 25, 5)
 GO
 
+-- Bảng CoSoBuonBanPhanBon
+CREATE TABLE CoSoBuonBanPhanBon
+(
+    ID INT PRIMARY KEY IDENTITY,
+    TenCoSo NVARCHAR(50),
+    DiaChi NVARCHAR(50),
+    SoGiayPhepKinhDoanh NVARCHAR(50),
+    NgayCapGiayPhep DATE,
+    LoaiCoSoID INT FOREIGN KEY REFERENCES LoaiCoSo(ID),
+    DonViHanhChinhID INT FOREIGN KEY REFERENCES DonViHanhChinh(ID),
+    ToChuc_or_CaNhanID INT FOREIGN KEY REFERENCES ToChuc_or_CaNhan(ID)
+)
+GO
+INSERT INTO CoSoBuonBanPhanBon (TenCoSo, DiaChi, SoGiayPhepKinhDoanh, NgayCapGiayPhep, LoaiCoSoID, DonViHanhChinhID, ToChuc_or_CaNhanID) VALUES
+    (N'Cửa hàng phân bón Minh Quang', N'Minh Quang, Tam Đảo', N'GDKD-PB-001', '2024-11-10', 5, 68, 1),
+    (N'Đại lý phân bón Thanh Trù', N'Xã Thanh Trù, Vĩnh Yên', N'GDKD-PB-002', '2024-12-15', 5, 19, 2),
+    (N'Cửa hàng phân bón Sơn Lôi', N'Sơn Lôi, Bình Xuyên', N'GDKD-PB-003', '2025-01-20', 5, 77, 3),
+    (N'Đại lý phân bón Hợp Lý', N'Hợp Lý, Lập Thạch', N'GDKD-PB-004', '2025-02-01', 5, 32, 4),
+    (N'Cửa hàng phân bón Ngọc Thanh', N'Ngọc Thanh, Phúc Yên', N'GDKD-PB-005', '2025-03-01', 5, 25, 5)
+GO
+
+-- Bảng CoSoVietGap
+CREATE TABLE CoSoVietGap
+(
+    ID INT PRIMARY KEY IDENTITY,
+    TenCoSo NVARCHAR(50),
+    DiaChi NVARCHAR(50),
+    SoGiayPhepVietGap NVARCHAR(50),
+    NgayCapGiayPhep DATE,
+    NgayHetHan DATE,
+    LoaiCoSoID INT FOREIGN KEY REFERENCES LoaiCoSo(ID),
+    DonViHanhChinhID INT FOREIGN KEY REFERENCES DonViHanhChinh(ID),
+    ToChuc_or_CaNhanID INT FOREIGN KEY REFERENCES ToChuc_or_CaNhan(ID)
+)
+GO
+INSERT INTO CoSoVietGap (TenCoSo, DiaChi, SoGiayPhepVietGap, NgayCapGiayPhep, NgayHetHan, LoaiCoSoID, DonViHanhChinhID, ToChuc_or_CaNhanID) VALUES
+    (N'Trang trại VietGAP Minh Quang', N'Minh Quang, Tam Đảo', N'VG-001', '2024-11-15', '2026-11-15', 6, 68, 1),
+    (N'Trang trại VietGAP Thanh Trù', N'Xã Thanh Trù, Vĩnh Yên', N'VG-002', '2024-12-20', '2026-12-20', 6, 19, 2),
+    (N'Trang trại VietGAP Sơn Lôi', N'Sơn Lôi, Bình Xuyên', N'VG-003', '2025-01-25', '2027-01-25', 6, 77, 3),
+    (N'Trang trại VietGAP Hợp Lý', N'Hợp Lý, Lập Thạch', N'VG-004', '2025-02-10', '2027-02-10', 6, 32, 4),
+    (N'Trang trại VietGAP Ngọc Thanh', N'Ngọc Thanh, Phúc Yên', N'VG-005', '2025-03-05', '2027-03-05', 6, 25, 5)
+GO
+
 -- Bảng ToChucChungNhan
 CREATE TABLE ToChucChungNhan
 (
@@ -381,6 +408,7 @@ CREATE TABLE ToChucCaNhanSanXuat
     ID INT PRIMARY KEY IDENTITY,
     ToChuc_or_CaNhanID INT FOREIGN KEY REFERENCES ToChuc_or_CaNhan(ID),
     CoSoID INT FOREIGN KEY REFERENCES CoSo(ID),
+    TenCoSo NVARCHAR(50),
     GiayPhepSanXuat NVARCHAR(50),
     NgayCapGiayPhep DATE,
     NgayHetHan DATE,
@@ -388,12 +416,34 @@ CREATE TABLE ToChucCaNhanSanXuat
     TrangThai NVARCHAR(50)
 )
 GO
-INSERT INTO ToChucCaNhanSanXuat (ToChuc_or_CaNhanID, CoSoID, GiayPhepSanXuat, NgayCapGiayPhep, NgayHetHan, MoTa, TrangThai) VALUES
-    (1, 3, N'GP-SX-001', '2024-01-10', '2026-01-10', N'Cơ sở sản xuất đạt chuẩn GMP', N'Hoạt động'),
-    (2, NULL, N'GP-SX-002', '2024-02-15', '2026-02-15', N'Hộ cá nhân sản xuất thuốc trừ sâu sinh học', N'Hoạt động'),
-    (3, 4, N'GP-SX-003', '2024-03-01', '2026-03-01', N'Nhà máy sản xuất quy mô lớn', N'Hoạt động'),
-    (4, 2, N'GP-SX-004', '2024-04-20', '2025-04-20', N'Cơ sở sản xuất thuốc diệt cỏ', N'Hết hiệu lực'),
-    (5, 5, N'GP-SX-005', '2024-05-10', '2026-05-10', N'Sản xuất thuốc trừ nấm đạt tiêu chuẩn', N'Hoạt động')
+INSERT INTO ToChucCaNhanSanXuat (ToChuc_or_CaNhanID, CoSoID, TenCoSo, GiayPhepSanXuat, NgayCapGiayPhep, NgayHetHan, MoTa, TrangThai) VALUES
+    (1, 3, N'Nhà máy Minh Quang', N'GP-SX-001', '2024-01-10', '2026-01-10', N'Cơ sở sản xuất đạt chuẩn GMP', N'Đủ điều kiện'),
+    (2, NULL, N'Hộ kinh doanh Thanh Trù', N'GP-SX-002', '2024-02-15', '2026-02-15', N'Hộ cá nhân sản xuất thuốc trừ sâu sinh học', N'Đủ điều kiện'),
+    (3, 4, N'Trang trại Sơn Lôi', N'GP-SX-003', '2024-03-01', '2026-03-01', N'Nhà máy sản xuất quy mô lớn', N'Đủ điều kiện'),
+    (4, 2, N'Cơ sở giết mổ Hợp Lý', N'GP-SX-004', '2024-04-20', '2025-04-20', N'Cơ sở sản xuất thuốc diệt cỏ', N'Không đủ điều kiện'),
+    (5, 5, N'Cơ sở xử lý chất thải Ngọc Thanh', N'GP-SX-005', '2024-05-10', '2026-05-10', N'Sản xuất thuốc trừ nấm đạt tiêu chuẩn', N'Đủ điều kiện')
+GO
+
+-- Bảng ToChucCaNhanSanXuatPhanBon
+CREATE TABLE ToChucCaNhanSanXuatPhanBon
+(
+    ID INT PRIMARY KEY IDENTITY,
+    ToChuc_or_CaNhanID INT FOREIGN KEY REFERENCES ToChuc_or_CaNhan(ID),
+    CoSoID INT FOREIGN KEY REFERENCES CoSo(ID),
+    TenCoSo NVARCHAR(50),
+    GiayPhepSanXuat NVARCHAR(50),
+    NgayCapGiayPhep DATE,
+    NgayHetHan DATE,
+    MoTa NVARCHAR(250),
+    TrangThai NVARCHAR(50) CHECK (TrangThai IN (N'Đủ điều kiện', N'Không đủ điều kiện'))
+)
+GO
+INSERT INTO ToChucCaNhanSanXuatPhanBon (ToChuc_or_CaNhanID, CoSoID, TenCoSo, GiayPhepSanXuat, NgayCapGiayPhep, NgayHetHan, MoTa, TrangThai) VALUES
+    (1, 3, N'Nhà máy Minh Quang', N'GP-PB-001', '2024-01-15', '2026-01-15', N'Cơ sở sản xuất phân bón hữu cơ đạt chuẩn', N'Đủ điều kiện'),
+    (2, 1, N'Trang trại Thanh Trù', N'GP-PB-002', '2024-02-20', '2026-02-20', N'Hộ cá nhân sản xuất phân bón vi sinh', N'Đủ điều kiện'),
+    (3, 4, N'Trang trại Sơn Lôi', N'GP-PB-003', '2024-03-10', '2026-03-10', N'Nhà máy sản xuất phân bón NPK quy mô lớn', N'Đủ điều kiện'),
+    (4, NULL, N'Hộ cá nhân Nguyễn Văn A', N'GP-PB-004', '2024-04-25', '2025-04-25', N'Cơ sở sản xuất phân bón lá', N'Không đủ điều kiện'),
+    (5, 5, N'Cơ sở xử lý chất thải Ngọc Thanh', N'GP-PB-005', '2024-05-15', '2026-05-15', N'Sản xuất phân bón hữu cơ chất lượng cao', N'Đủ điều kiện')
 GO
 
 -- Bảng BanDoPhanBo
@@ -524,7 +574,7 @@ INSERT INTO ThuocBaoVeThucVat (TenThuoc, LoaiThuoc, NgaySanXuat, NgayHetHan) VAL
     (N'Confidor 100SL', N'Thuốc trừ sâu', '2025-04-01', '2027-04-01')
 GO
 
--- Bảng PhanBon (Thêm mới cho quản lý danh mục phân bón)
+-- Bảng PhanBon
 CREATE TABLE PhanBon
 (
     ID INT PRIMARY KEY IDENTITY,
@@ -543,7 +593,39 @@ INSERT INTO PhanBon (TenPhanBon, LoaiPhanBon, NgaySanXuat, NgayHetHan, CoSoID, M
     (N'Phân vi sinh Azoto', N'Phân vi sinh', '2025-04-01', '2027-04-01', 4, N'Phân vi sinh cải tạo đất'),
     (N'Phân hữu cơ compost', N'Phân hữu cơ', '2025-05-01', '2027-05-01', 1, N'Phân hữu cơ từ nguyên liệu tự nhiên')
 GO
-
+-- Bảng TuoiSau_CapDoPhoBien
+CREATE TABLE TuoiSau_CapDoPhoBien
+(
+    ID INT PRIMARY KEY IDENTITY,
+    TenSinhVat NVARCHAR(100),
+    TenTuoiSau NVARCHAR(50),
+    TenCapDoPhoBien NVARCHAR(50)
+)
+GO
+INSERT INTO TuoiSau_CapDoPhoBien (TenSinhVat, TenTuoiSau, TenCapDoPhoBien) VALUES
+    (N'Sâu đục thân', N'Sâu non', N'Phổ biến'),
+    (N'Rầy nâu', N'Trưởng thành', N'Rất phổ biến'),
+    (N'Sâu keo mùa thu', N'Sâu non', N'Phổ biến')
+GO
+-- Bảng SinhVatGayHai
+CREATE TABLE SinhVatGayHai
+(
+    ID INT PRIMARY KEY IDENTITY,
+    TenSinhVat NVARCHAR(100),
+    LoaiSinhVat NVARCHAR(50),
+    NgayPhatHien DATE,
+    MoTa NVARCHAR(255),
+    VungTrongTrotID INT FOREIGN KEY REFERENCES VungTrongTrot(ID),
+    TuoiSau_CapDoPhoBienID INT FOREIGN KEY REFERENCES TuoiSau_CapDoPhoBien(ID)
+)
+GO
+INSERT INTO SinhVatGayHai (TenSinhVat, LoaiSinhVat, NgayPhatHien, MoTa, VungTrongTrotID, TuoiSau_CapDoPhoBienID) VALUES
+    (N'Sâu đục thân', N'Sâu hại', '2025-01-15', N'Gây hại cây lúa', 1, 1),
+    (N'Rầy nâu', N'Côn trùng', '2025-02-10', N'Hút nhựa cây lúa', 2, 2),
+    (N'Bệnh đạo ôn', N'Nấm bệnh', '2025-03-05', N'Gây hại lá lúa', 3, NULL),
+    (N'Chuột đồng', N'Động vật có hại', '2025-04-01', N'Phá hoại mùa màng', 4, NULL),
+    (N'Sâu keo mùa thu', N'Sâu hại', '2025-05-10', N'Gây hại ngô và rau màu', 5, 3)
+GO
 -- View DonVi_Huyen
 CREATE VIEW DonVi_Huyen AS
 SELECT *
@@ -565,11 +647,6 @@ FROM DonViHanhChinh
 WHERE CapDoHanhChinhID = (SELECT ID FROM CapDoHanhChinh WHERE TenCapDo = N'Xã')
 GO
 
--- View ThongKeHoTrongTrot
-CREATE VIEW ThongKeHoTrongTrot AS
-SELECT *
-FROM HoTrongTrot
-GO
 
 -- View GiongCay
 CREATE VIEW GiongCay AS
@@ -590,7 +667,22 @@ SELECT ID, TenGiongCay, LoaiCay, MoTa
 FROM CayDauDong
 GO
 
+-- Truy vấn danh sách sinh vật gây hại
+SELECT 
+    s.ID,
+    s.TenSinhVat,
+    s.LoaiSinhVat,
+    s.NgayPhatHien,
+    s.MoTa,
+    v.TenVungTrongTrot AS VungTrongTrot
+FROM SinhVatGayHai s
+JOIN VungTrongTrot v ON s.VungTrongTrotID = v.ID
+WHERE s.NgayPhatHien <= GETDATE()
+ORDER BY s.NgayPhatHien DESC
+GO
+
 -- View ChiTietCoSoBuonBan
+
 CREATE VIEW ChiTietCoSoBuonBan AS
 SELECT 
     c.ID, 
@@ -609,7 +701,47 @@ JOIN DonViHanhChinh d ON c.DonViHanhChinhID = d.ID
 JOIN ToChuc_or_CaNhan t ON c.ToChuc_or_CaNhanID = t.ID
 GO
 
--- View ChiTietPhanBon (Thêm mới cho quản lý phân bón)
+-- View ChiTietCoSoBuonBanPhanBon
+CREATE VIEW ChiTietCoSoBuonBanPhanBon AS
+SELECT 
+    c.ID, 
+    c.TenCoSo, 
+    c.DiaChi, 
+    c.SoGiayPhepKinhDoanh, 
+    c.NgayCapGiayPhep,
+    l.TenLoaiCoSo, 
+    d.TenDonVi AS DiaBan,
+    t.Ten AS ChuSoHuu, 
+    t.Email_or_Phone AS LienHe,
+    DATEDIFF(DAY, c.NgayCapGiayPhep, GETDATE()) AS SoNgayCap
+FROM CoSoBuonBanPhanBon c
+JOIN LoaiCoSo l ON c.LoaiCoSoID = l.ID
+JOIN DonViHanhChinh d ON c.DonViHanhChinhID = d.ID
+JOIN ToChuc_or_CaNhan t ON c.ToChuc_or_CaNhanID = t.ID
+GO
+
+-- View ChiTietCoSoVietGap
+CREATE VIEW ChiTietCoSoVietGap AS
+SELECT 
+    c.ID, 
+    c.TenCoSo, 
+    c.DiaChi, 
+    c.SoGiayPhepVietGap, 
+    c.NgayCapGiayPhep,
+    c.NgayHetHan,
+    l.TenLoaiCoSo, 
+    d.TenDonVi AS DiaBan,
+    t.Ten AS ChuSoHuu, 
+    t.Email_or_Phone AS LienHe,
+    DATEDIFF(DAY, c.NgayCapGiayPhep, GETDATE()) AS SoNgayCap
+FROM CoSoVietGap c
+JOIN LoaiCoSo l ON c.LoaiCoSoID = l.ID
+JOIN DonViHanhChinh d ON c.DonViHanhChinhID = d.ID
+JOIN ToChuc_or_CaNhan t ON c.ToChuc_or_CaNhanID = t.ID
+WHERE c.NgayHetHan > GETDATE() OR c.NgayHetHan IS NULL
+GO
+
+-- View ChiTietPhanBon
 CREATE VIEW ChiTietPhanBon AS
 SELECT 
     p.ID,
@@ -627,11 +759,43 @@ LEFT JOIN LoaiCoSo l ON c.LoaiCoSoID = l.ID
 WHERE p.NgayHetHan > GETDATE()
 GO
 
+-- View ChiTietToChucCaNhanSanXuat
+CREATE VIEW ChiTietToChucCaNhanSanXuat AS
+SELECT 
+    t.ID,
+    tc.Ten AS TenToChucCaNhan,
+    t.TenCoSo,
+    t.GiayPhepSanXuat,
+    t.NgayCapGiayPhep,
+    t.NgayHetHan,
+    t.MoTa,
+    t.TrangThai,
+    DATEDIFF(DAY, t.NgayCapGiayPhep, GETDATE()) AS SoNgayCap
+FROM ToChucCaNhanSanXuat t
+LEFT JOIN ToChuc_or_CaNhan tc ON t.ToChuc_or_CaNhanID = tc.ID
+GO
+
+-- View ChiTietToChucCaNhanSanXuatPhanBon
+CREATE VIEW ChiTietToChucCaNhanSanXuatPhanBon AS
+SELECT 
+    t.ID,
+    tc.Ten AS TenToChucCaNhan,
+    t.TenCoSo,
+    t.GiayPhepSanXuat,
+    t.NgayCapGiayPhep,
+    t.NgayHetHan,
+    t.MoTa,
+    t.TrangThai,
+    DATEDIFF(DAY, t.NgayCapGiayPhep, GETDATE()) AS SoNgayCap
+FROM ToChucCaNhanSanXuatPhanBon t
+LEFT JOIN ToChuc_or_CaNhan tc ON t.ToChuc_or_CaNhanID = tc.ID
+GO
+
 -- Truy vấn danh sách tổ chức/cá nhân đủ điều kiện sản xuất thuốc BVTV
 SELECT 
     t.ID,
     tc.Ten AS TenToChucCaNhan,
-    c.TenCoSo,
+    t.TenCoSo,
     t.GiayPhepSanXuat,
     t.NgayCapGiayPhep,
     t.NgayHetHan,
@@ -639,9 +803,44 @@ SELECT
     t.TrangThai
 FROM ToChucCaNhanSanXuat t
 LEFT JOIN ToChuc_or_CaNhan tc ON t.ToChuc_or_CaNhanID = tc.ID
-LEFT JOIN CoSo c ON t.CoSoID = c.ID
 WHERE t.NgayHetHan > GETDATE() OR t.NgayHetHan IS NULL
 ORDER BY t.NgayCapGiayPhep DESC
+GO
+
+-- Truy vấn danh sách tổ chức/cá nhân sản xuất phân bón còn hiệu lực
+SELECT 
+    t.ID,
+    tc.Ten AS TenToChucCaNhan,
+    t.TenCoSo,
+    t.GiayPhepSanXuat,
+    t.NgayCapGiayPhep,
+    t.NgayHetHan,
+    t.MoTa,
+    t.TrangThai
+FROM ToChucCaNhanSanXuatPhanBon t
+LEFT JOIN ToChuc_or_CaNhan tc ON t.ToChuc_or_CaNhanID = tc.ID
+WHERE t.NgayHetHan > GETDATE() OR t.NgayHetHan IS NULL
+ORDER BY t.NgayCapGiayPhep DESC
+GO
+
+-- Truy vấn danh sách cơ sở VietGAP còn hiệu lực
+SELECT 
+    c.ID, 
+    c.TenCoSo, 
+    c.DiaChi, 
+    c.SoGiayPhepVietGap, 
+    c.NgayCapGiayPhep,
+    c.NgayHetHan,
+    l.TenLoaiCoSo, 
+    d.TenDonVi AS DiaBan,
+    t.Ten AS ChuSoHuu, 
+    t.Email_or_Phone AS LienHe
+FROM CoSoVietGap c
+JOIN LoaiCoSo l ON c.LoaiCoSoID = l.ID
+JOIN DonViHanhChinh d ON c.DonViHanhChinhID = d.ID
+JOIN ToChuc_or_CaNhan t ON c.ToChuc_or_CaNhanID = t.ID
+WHERE c.NgayHetHan > GETDATE() OR c.NgayHetHan IS NULL
+ORDER BY c.NgayCapGiayPhep DESC
 GO
 
 -- Truy vấn danh sách thuốc bảo vệ thực vật
@@ -651,7 +850,7 @@ WHERE NgayHetHan > GETDATE()
 ORDER BY NgaySanXuat DESC
 GO
 
--- Truy vấn danh sách phân bón (Thêm mới)
+-- Truy vấn danh sách phân bón
 SELECT 
     ID,
     TenPhanBon,
@@ -665,7 +864,26 @@ WHERE NgayHetHan > GETDATE()
 ORDER BY NgaySanXuat DESC
 GO
 
--- Thống kê phân bón theo loại (Thêm mới)
+-- Truy vấn danh sách cơ sở buôn bán phân bón còn hiệu lực
+SELECT 
+    c.ID, 
+    c.TenCoSo, 
+    c.DiaChi, 
+    c.SoGiayPhepKinhDoanh, 
+    c.NgayCapGiayPhep,
+    l.TenLoaiCoSo, 
+    d.TenDonVi AS DiaBan,
+    t.Ten AS ChuSoHuu, 
+    t.Email_or_Phone AS LienHe
+FROM CoSoBuonBanPhanBon c
+JOIN LoaiCoSo l ON c.LoaiCoSoID = l.ID
+JOIN DonViHanhChinh d ON c.DonViHanhChinhID = d.ID
+JOIN ToChuc_or_CaNhan t ON c.ToChuc_or_CaNhanID = t.ID
+WHERE c.NgayCapGiayPhep <= GETDATE()
+ORDER BY c.NgayCapGiayPhep DESC
+GO
+
+-- Thống kê phân bón theo loại
 SELECT 
     LoaiPhanBon,
     COUNT(*) AS SoLuong,
@@ -685,13 +903,6 @@ GO
 SELECT * FROM View_GiongCayLuuHanh ORDER BY LoaiCay, TenGiongCay
 GO
 SELECT * FROM View_CayDauDong ORDER BY LoaiCay, TenGiongCay
-GO
-
--- Thống kê hộ trồng trọt theo vùng
-SELECT h.ID, v.TenVungTrongTrot, h.SoHo, h.KetQua, h.NgayThongKe
-FROM HoTrongTrot h
-JOIN VungTrongTrot v ON h.VungTrongTrotID = v.ID
-ORDER BY h.NgayThongKe DESC
 GO
 
 -- Chi tiết cơ sở sản xuất
@@ -739,4 +950,26 @@ SELECT l.ID, n.UserName, FORMAT(ThoiGianTruyCap, 'yyyy-MM-dd HH:mm:ss') AS ThoiG
 FROM LichSuTruyCap l
 JOIN NguoiDung n ON l.NguoiDungID = n.ID
 ORDER BY l.ID DESC
+GO
+
+-- View TuoiSau_CapDoPhoBien
+CREATE VIEW View_TuoiSau_CapDoPhoBien AS
+SELECT 
+    s.ID,
+    s.TenSinhVat,
+    s.LoaiSinhVat,
+    s.NgayPhatHien,
+    s.MoTa,
+    v.TenVungTrongTrot AS VungTrongTrot,
+    t.TenTuoiSau,
+    t.TenCapDoPhoBien
+FROM SinhVatGayHai s
+JOIN VungTrongTrot v ON s.VungTrongTrotID = v.ID
+JOIN TuoiSau_CapDoPhoBien t ON s.TuoiSau_CapDoPhoBienID = t.ID
+WHERE s.LoaiSinhVat IN (N'Sâu hại', N'Côn trùng')
+GO
+
+-- Truy vấn kiểm tra view
+SELECT * FROM View_TuoiSau_CapDoPhoBien
+ORDER BY NgayPhatHien DESC
 GO
