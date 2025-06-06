@@ -43,6 +43,9 @@
         "ToChucCaNhanSanXuatPhanBon/index": "Tổ chức/Cá nhân",
         "CoSoBuonBanPhanBon/index": "Cơ sở buôn bán phân bón",
 
+        "BanDo/index": "Bản đồ",
+        
+
         "qltt": "Quản Lý Trồng Trọt",
 
         ".": ""
@@ -131,6 +134,10 @@
                     //"hotrongtrot/thongke"
 
                 ]
+            },
+            {
+                "Text": "Bản đồ",
+                "Refs": [ "BanDo/index" ]
             }
         ]
       }

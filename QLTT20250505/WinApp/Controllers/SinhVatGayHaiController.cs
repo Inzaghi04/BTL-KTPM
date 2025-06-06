@@ -11,7 +11,7 @@ namespace WinApp.Controllers
     {
         public object SauBenh()
         {
-            object data = Provider.Select<TuoiSau_CapDoPhoBien>();
+            object data = Provider.Select<View_TuoiSau_CapDoPhoBien>();
             // Xử lý dữ liệu thống kê
 
             return View(data);

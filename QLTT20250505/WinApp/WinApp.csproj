@@ -64,6 +64,7 @@
     </ApplicationDefinition>
     <Compile Include="Actors\User.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\BanDoCotroller.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CoSoBuonBanController.cs" />
     <Compile Include="Controllers\CoSoBuonBanPhanBonController.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Models\UpdateContext.cs" />
     <Compile Include="Models\VungTrongTrot.cs" />
     <Compile Include="Views\Admin\Test.cs" />
+    <Compile Include="Views\BanDo\BanDoManager.cs" />
     <Compile Include="Views\BaseView.cs" />
     <Compile Include="Views\CoSoBuonBanPhanBon\CoSoBuonBanPhanBonManager.cs" />
     <Compile Include="Views\CoSoBuonBan\CoSoBuonBanManager.cs" />

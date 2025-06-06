@@ -446,27 +446,6 @@ INSERT INTO ToChucCaNhanSanXuatPhanBon (ToChuc_or_CaNhanID, CoSoID, TenCoSo, Gia
     (5, 5, N'Cơ sở xử lý chất thải Ngọc Thanh', N'GP-PB-005', '2024-05-15', '2026-05-15', N'Sản xuất phân bón hữu cơ chất lượng cao', N'Đủ điều kiện')
 GO
 
--- Bảng BanDoPhanBo
-CREATE TABLE BanDoPhanBo
-(
-    ID INT PRIMARY KEY IDENTITY,
-    KinhDo FLOAT,
-    ViDo FLOAT,
-    CoSoID INT FOREIGN KEY REFERENCES CoSo(ID),
-    VungTrongTrotID INT FOREIGN KEY REFERENCES VungTrongTrot(ID),
-    CoSoBuonBanID INT FOREIGN KEY REFERENCES CoSoBuonBan(ID)
-)
-GO
-INSERT INTO BanDoPhanBo (KinhDo, ViDo, CoSoID, VungTrongTrotID, CoSoBuonBanID) VALUES
-    (105.592, 21.308, 1, 1, NULL),
-    (105.620, 21.295, NULL, 2, NULL),
-    (105.580, 21.350, 2, 3, NULL),
-    (105.630, 21.280, 3, 4, NULL),
-    (105.600, 21.320, 4, 5, NULL),
-    (105.590, 21.310, NULL, NULL, 1),
-    (105.610, 21.325, NULL, NULL, 2),
-    (105.605, 21.315, NULL, NULL, 3)
-GO
 
 -- Bảng LichSuTruyCap
 CREATE TABLE LichSuTruyCap 
@@ -626,6 +605,59 @@ INSERT INTO SinhVatGayHai (TenSinhVat, LoaiSinhVat, NgayPhatHien, MoTa, VungTron
     (N'Chuột đồng', N'Động vật có hại', '2025-04-01', N'Phá hoại mùa màng', 4, NULL),
     (N'Sâu keo mùa thu', N'Sâu hại', '2025-05-10', N'Gây hại ngô và rau màu', 5, 3)
 GO
+
+-- Tạo bảng BanDoPhanBo mới với cột TenCoSo
+CREATE TABLE BanDoPhanBo
+(
+    ID INT PRIMARY KEY IDENTITY,
+    KinhDo FLOAT,
+    ViDo FLOAT,
+    CoSoID INT FOREIGN KEY REFERENCES CoSo(ID),
+    VungTrongTrotID INT FOREIGN KEY REFERENCES VungTrongTrot(ID),
+    CoSoBuonBanID INT FOREIGN KEY REFERENCES CoSoBuonBan(ID),
+    CoSoBuonBanPhanBonID INT FOREIGN KEY REFERENCES CoSoBuonBanPhanBon(ID),
+    SinhVatGayHaiID INT FOREIGN KEY REFERENCES SinhVatGayHai(ID),
+    TenCoSo NVARCHAR(50)
+)
+GO
+
+-- Thêm dữ liệu vào bảng BanDoPhanBo
+INSERT INTO BanDoPhanBo (KinhDo, ViDo, CoSoID, VungTrongTrotID, CoSoBuonBanID, CoSoBuonBanPhanBonID, SinhVatGayHaiID, TenCoSo)
+VALUES
+    -- Dữ liệu hiện có liên quan đến vùng trồng trọt
+    (105.592, 21.308, 1, 1, NULL, NULL, NULL, N'Trang trại Thanh Trù'),
+    (105.620, 21.295, NULL, 2, NULL, NULL, NULL, N'Vùng trồng trọt Ngọc Thanh'),
+    (105.580, 21.350, 2, 3, NULL, NULL, NULL, N'Cơ sở giết mổ Hợp Lý'),
+    (105.630, 21.280, 3, 4, NULL, NULL, NULL, N'Nhà máy Minh Quang'),
+    (105.600, 21.320, 4, 5, NULL, NULL, NULL, N'Trang trại Sơn Lôi'),
+    -- Cơ sở buôn bán thuốc BVTV từ CoSoBuonBan
+    (105.590, 21.310, NULL, NULL, 1, NULL, NULL, N'Cửa hàng thuốc BVTV Thanh Trù'),
+    (105.610, 21.325, NULL, NULL, 2, NULL, NULL, N'Đại lý thuốc BVTV Sơn Lôi'),
+    (105.605, 21.315, NULL, NULL, 3, NULL, NULL, N'Cửa hàng Ngọc Thanh'),
+    -- Cơ sở sản xuất thuốc BVTV từ ToChucCaNhanSanXuat
+    (105.585, 21.345, 2, NULL, NULL, NULL, NULL, N'Cơ sở giết mổ Hợp Lý'),
+    (105.625, 21.285, 5, NULL, NULL, NULL, NULL, N'Cơ sở xử lý chất thải Ngọc Thanh'),
+    (105.595, 21.305, NULL, NULL, NULL, NULL, NULL, N'Hộ kinh doanh Thanh Trù'),
+    -- Cơ sở buôn bán phân bón từ CoSoBuonBanPhanBon
+    (105.635, 21.275, NULL, NULL, NULL, 1, NULL, N'Cửa hàng phân bón Minh Quang'),
+    (105.595, 21.315, NULL, NULL, NULL, 2, NULL, N'Đại lý phân bón Thanh Trù'),
+    (105.615, 21.320, NULL, NULL, NULL, 3, NULL, N'Cửa hàng phân bón Sơn Lôi'),
+    (105.575, 21.355, NULL, NULL, NULL, 4, NULL, N'Đại lý phân bón Hợp Lý'),
+    (105.610, 21.310, NULL, NULL, NULL, 5, NULL, N'Cửa hàng phân bón Ngọc Thanh'),
+    -- Cơ sở sản xuất phân bón từ ToChucCaNhanSanXuatPhanBon
+    (105.625, 21.280, 3, NULL, NULL, NULL, NULL, N'Nhà máy Minh Quang'),
+    (105.590, 21.305, 1, NULL, NULL, NULL, NULL, N'Trang trại Thanh Trù'),
+    (105.605, 21.325, 4, NULL, NULL, NULL, NULL, N'Trang trại Sơn Lôi'),
+    (105.580, 21.340, NULL, NULL, NULL, NULL, NULL, N'Hộ cá nhân Nguyễn Văn A'),
+    (105.620, 21.290, 5, NULL, NULL, NULL, NULL, N'Cơ sở xử lý chất thải Ngọc Thanh'),
+    -- Khu vực có sinh vật gây hại từ SinhVatGayHai
+    (105.592, 21.308, NULL, 1, NULL, NULL, 1, N'Vùng trồng trọt Thanh Trù - Sâu đục thân'),
+    (105.620, 21.295, NULL, 2, NULL, NULL, 2, N'Vùng trồng trọt Ngọc Thanh - Rầy nâu'),
+    (105.580, 21.350, NULL, 3, NULL, NULL, 3, N'Vùng trồng trọt Hợp Lý - Bệnh đạo ôn'),
+    (105.630, 21.280, NULL, 4, NULL, NULL, 4, N'Vùng trồng trọt Minh Quang - Chuột đồng'),
+    (105.600, 21.320, NULL, 5, NULL, NULL, 5, N'Vùng trồng trọt Sơn Lôi - Sâu keo mùa thu')
+GO
+
 -- View DonVi_Huyen
 CREATE VIEW DonVi_Huyen AS
 SELECT *
@@ -972,4 +1004,82 @@ GO
 -- Truy vấn kiểm tra view
 SELECT * FROM View_TuoiSau_CapDoPhoBien
 ORDER BY NgayPhatHien DESC
+GO
+
+-- View BanDoPhanBo_ThuocBVTV: Bản đồ phân bổ cơ sở sản xuất và buôn bán thuốc BVTV
+CREATE VIEW BanDoPhanBo_ThuocBVTV AS
+SELECT 
+    b.ID,
+    b.KinhDo,
+    b.ViDo,
+    b.TenCoSo,
+    COALESCE(c.DiaChi, cb.DiaChi) AS DiaChi,
+    COALESCE(lc.TenLoaiCoSo, lcb.TenLoaiCoSo) AS LoaiCoSo,
+    d.TenDonVi AS DiaBan,
+    t.Ten AS ChuSoHuu,
+    t.Email_or_Phone AS LienHe
+FROM BanDoPhanBo b
+LEFT JOIN CoSo c ON b.CoSoID = c.ID
+LEFT JOIN CoSoBuonBan cb ON b.CoSoBuonBanID = cb.ID
+LEFT JOIN LoaiCoSo lc ON c.LoaiCoSoID = lc.ID
+LEFT JOIN LoaiCoSo lcb ON cb.LoaiCoSoID = lcb.ID
+LEFT JOIN DonViHanhChinh d ON (c.DonViHanhChinhID = d.ID OR cb.DonViHanhChinhID = d.ID)
+LEFT JOIN ToChuc_or_CaNhan t ON (c.ToChuc_or_CaNhanID = t.ID OR cb.ToChuc_or_CaNhanID = t.ID)
+WHERE b.CoSoBuonBanID IS NOT NULL 
+   OR b.CoSoID IN (SELECT CoSoID FROM ToChucCaNhanSanXuat WHERE MoTa LIKE N'%thuốc%')
+   OR (b.CoSoID IS NULL AND b.TenCoSo = N'Hộ kinh doanh Thanh Trù') -- Cơ sở sản xuất thuốc BVTV không có CoSoID
+GO
+
+-- View BanDoPhanBo_PhanBon: Bản đồ phân bổ cơ sở sản xuất và buôn bán phân bón
+CREATE VIEW BanDoPhanBo_PhanBon AS
+SELECT 
+    b.ID,
+    b.KinhDo,
+    b.ViDo,
+    b.TenCoSo,
+    COALESCE(c.DiaChi, cbp.DiaChi) AS DiaChi,
+    COALESCE(lc.TenLoaiCoSo, lcbp.TenLoaiCoSo) AS LoaiCoSo,
+    d.TenDonVi AS DiaBan,
+    t.Ten AS ChuSoHuu,
+    t.Email_or_Phone AS LienHe
+FROM BanDoPhanBo b
+LEFT JOIN CoSo c ON b.CoSoID = c.ID
+LEFT JOIN CoSoBuonBanPhanBon cbp ON b.CoSoBuonBanPhanBonID = cbp.ID
+LEFT JOIN LoaiCoSo lc ON c.LoaiCoSoID = lc.ID
+LEFT JOIN LoaiCoSo lcbp ON cbp.LoaiCoSoID = lcbp.ID
+LEFT JOIN DonViHanhChinh d ON (c.DonViHanhChinhID = d.ID OR cbp.DonViHanhChinhID = d.ID)
+LEFT JOIN ToChuc_or_CaNhan t ON (c.ToChuc_or_CaNhanID = t.ID OR cbp.ToChuc_or_CaNhanID = t.ID)
+WHERE b.CoSoBuonBanPhanBonID IS NOT NULL 
+   OR b.CoSoID IN (SELECT CoSoID FROM ToChucCaNhanSanXuatPhanBon)
+   OR (b.CoSoID IS NULL AND b.TenCoSo = N'Hộ cá nhân Nguyễn Văn A') -- Cơ sở sản xuất phân bón không có CoSoID
+GO
+
+-- View BanDoPhanBo_SinhVatGayHai: Bản đồ phân bổ khu vực có sinh vật gây hại
+CREATE VIEW BanDoPhanBo_SinhVatGayHai AS
+SELECT 
+    b.ID,
+    b.KinhDo,
+    b.ViDo,
+    b.TenCoSo,
+    v.MoTa AS DiaChi,
+    N'Khu vực sinh vật gây hại' AS LoaiCoSo,
+    d.TenDonVi AS DiaBan,
+    N'Không xác định' AS ChuSoHuu,
+    N'Không xác định' AS LienHe,
+    sv.TenSinhVat AS SinhVatGayHai,
+    sv.LoaiSinhVat,
+    sv.NgayPhatHien
+FROM BanDoPhanBo b
+JOIN SinhVatGayHai sv ON b.SinhVatGayHaiID = sv.ID
+JOIN VungTrongTrot v ON sv.VungTrongTrotID = v.ID
+JOIN DonViHanhChinh d ON v.DonViHanhChinhID = d.ID
+WHERE b.SinhVatGayHaiID IS NOT NULL
+GO
+
+-- Truy vấn kiểm tra các view
+SELECT * FROM BanDoPhanBo_ThuocBVTV ORDER BY TenCoSo
+GO
+SELECT * FROM BanDoPhanBo_PhanBon ORDER BY TenCoSo
+GO
+SELECT * FROM BanDoPhanBo_SinhVatGayHai ORDER BY TenCoSo
 GO

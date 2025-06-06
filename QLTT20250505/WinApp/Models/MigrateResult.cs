@@ -9,6 +9,8 @@ namespace Models
         public double? ViDo { get; set; }
         public int? CoSoID { get; set; }
         public int? VungTrongTrotID { get; set; }
+
+        //public string TenCoSo { get; set; }
     }
 }
 namespace Models
@@ -316,7 +318,7 @@ namespace Models
         public string MoTa { get; set; }
 
     }
-    public partial class TuoiSau_CapDoPhoBien
+    public partial class View_TuoiSau_CapDoPhoBien
     {
         public string TenSinhVat { get; set; }
         public string TenTuoiSau { get; set; }
@@ -324,3 +326,4 @@ namespace Models
     }
 
 }
+
