@@ -656,7 +656,16 @@ VALUES
     --(105.580, 21.350, NULL, 3, NULL, NULL, 3, N'Vùng trồng trọt Hợp Lý - Bệnh đạo ôn'),
     --(105.630, 21.280, NULL, 4, NULL, NULL, 4, N'Vùng trồng trọt Minh Quang - Chuột đồng'),
     --(105.600, 21.320, NULL, 5, NULL, NULL, 5, N'Vùng trồng trọt Sơn Lôi - Sâu keo mùa thu')
-
+	SELECT 
+    b.ID,
+    b.KinhDo,
+    b.ViDo,
+    c.TenCoSo,
+    v.TenVungTrongTrot
+FROM BanDoPhanBo b
+LEFT JOIN CoSo c ON b.CoSoID = c.ID
+LEFT JOIN VungTrongTrot v ON b.VungTrongTrotID = v.ID
+ORDER BY b.ID;
 	
 GO
 
