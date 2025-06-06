@@ -43,7 +43,8 @@
         "ToChucCaNhanSanXuatPhanBon/index": "Tổ chức/Cá nhân",
         "CoSoBuonBanPhanBon/index": "Cơ sở buôn bán phân bón",
 
-        "BanDo/index": "Bản đồ",
+        "BanDo": "Bản đồ",
+        "BanDo/index": "Bản đồ phân bố",
         
 
         "qltt": "Quản Lý Trồng Trọt",

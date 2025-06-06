@@ -3,19 +3,35 @@
   "WorkspaceRootPath": "C:\\BTL-KTPM\\QLTT20250505\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\bando\\bandomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\bando\\bandomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\qltt20250505\\winapp\\controllers\\bandocotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\bandocotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\app_data\\actions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\app_data\\actions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\qltt20250505\\winapp\\models\\bando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\bando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\models\\hotrongtrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\hotrongtrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\controllers\\phanboncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\phanboncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\cosobuonban\\cosobuonbanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\cosobuonban\\cosobuonbanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\qltt20250505\\winapp\\views\\bando\\bandomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\bando\\bandomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\qltt20250505\\winapp\\models\\migrateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\models\\migrateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\migrateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -115,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\thuocbaovethucvatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\controllers\\phanboncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\phanboncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\controllers\\migratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\migratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -165,10 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\tochuccanhansanxuatphanbon\\tochuccanhansanxuatphanbonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\tochuccanhansanxuatphanbon\\tochuccanhansanxuatphanbonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\models\\hotrongtrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\models\\hotrongtrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\vungtrongtrot\\vungtrongtrotmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -286,46 +294,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BanDoManager.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BanDo\\BanDoManager.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\BanDo\\BanDoManager.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BanDo\\BanDoManager.cs",
-              "RelativeToolTip": "WinApp\\Views\\BanDo\\BanDoManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T03:57:42.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SinhVatGayHaiController.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\SinhVatGayHaiController.cs",
-              "RelativeDocumentMoniker": "WinApp\\Controllers\\SinhVatGayHaiController.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\SinhVatGayHaiController.cs",
-              "RelativeToolTip": "WinApp\\Controllers\\SinhVatGayHaiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T09:57:46.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MigrateResult.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\MigrateResult.cs",
-              "RelativeDocumentMoniker": "WinApp\\Controllers\\MigrateResult.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\MigrateResult.cs",
-              "RelativeToolTip": "WinApp\\Controllers\\MigrateResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T06:57:38.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BanDoCotroller.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\BanDoCotroller.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\BanDoCotroller.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\BanDoCotroller.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\BanDoCotroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T04:02:33.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CoSoBuonBanManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\CoSoBuonBan\\CoSoBuonBanManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\CoSoBuonBan\\CoSoBuonBanManager.cs",
@@ -333,25 +315,100 @@
               "RelativeToolTip": "WinApp\\Views\\CoSoBuonBan\\CoSoBuonBanManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T06:49:13.683Z",
+              "WhenOpened": "2025-06-02T06:49:13.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HoTrongTrot.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\HoTrongTrot.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\HoTrongTrot.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\HoTrongTrot.cs",
+              "RelativeToolTip": "WinApp\\Models\\HoTrongTrot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:11:05.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Actions.json",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App_Data\\Actions.json",
               "RelativeDocumentMoniker": "WinApp\\App_Data\\Actions.json",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App_Data\\Actions.json*",
-              "RelativeToolTip": "WinApp\\App_Data\\Actions.json*",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAIsAAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App_Data\\Actions.json",
+              "RelativeToolTip": "WinApp\\App_Data\\Actions.json",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAC4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-05T06:43:12.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BanDoManager.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BanDo\\BanDoManager.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\BanDo\\BanDoManager.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BanDo\\BanDoManager.cs*",
+              "RelativeToolTip": "WinApp\\Views\\BanDo\\BanDoManager.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T03:57:42.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MigrateResult.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\MigrateResult.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\MigrateResult.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\MigrateResult.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\MigrateResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:57:38.968Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BanDo.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\BanDo.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\BanDo.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\BanDo.cs",
+              "RelativeToolTip": "WinApp\\Models\\BanDo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T04:05:23.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SinhVatGayHaiController.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\SinhVatGayHaiController.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\SinhVatGayHaiController.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\SinhVatGayHaiController.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\SinhVatGayHaiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:57:46.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PhanBonController.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\PhanBonController.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\PhanBonController.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\PhanBonController.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\PhanBonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:45:43.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MigrateResult.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\MigrateResult.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\MigrateResult.cs",
@@ -359,12 +416,11 @@
               "RelativeToolTip": "WinApp\\Models\\MigrateResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T10:36:21.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T10:36:21.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "SinhVatGayHaiManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\SinhVatGayHai\\SinhVatGayHaiManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\SinhVatGayHai\\SinhVatGayHaiManager.cs",
@@ -376,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Developer.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Home\\Developer.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Developer.cs",
@@ -388,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Config.json",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App_Data\\Config.json",
               "RelativeDocumentMoniker": "WinApp\\App_Data\\Config.json",
@@ -396,12 +452,11 @@
               "RelativeToolTip": "WinApp\\App_Data\\Config.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-12T06:31:24.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T06:31:24.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Home\\Admin.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Admin.cs",
@@ -413,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Loading.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Home\\Loading.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Loading.cs",
@@ -425,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "UpdateContext.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\UpdateContext.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\UpdateContext.cs",
@@ -437,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "MeController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\MeController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\MeController.cs",
@@ -449,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "TaiKhoanController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\TaiKhoanController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\TaiKhoanController.cs",
@@ -461,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\LoginController.cs",
@@ -473,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "CoSoBuonBanController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\CoSoBuonBanController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\CoSoBuonBanController.cs",
@@ -485,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Provider.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Migration\\Provider.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\Provider.cs",
@@ -497,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\BaseController.cs",
@@ -509,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "DonViHanhChinhManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\DonViHanhChinh\\DonViHanhChinhManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\DonViHanhChinh\\DonViHanhChinhManager.cs",
@@ -521,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "ToChucCaNhanSanXuatPhanBonController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\ToChucCaNhanSanXuatPhanBonController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\ToChucCaNhanSanXuatPhanBonController.cs",
@@ -533,7 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "VungTrongTrotController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\VungTrongTrotController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\VungTrongTrotController.cs",
@@ -545,7 +600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "QLTTController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\QLTTController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\QLTTController.cs",
@@ -557,7 +612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "DonViHanhChinhController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\DonViHanhChinhController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\DonViHanhChinhController.cs",
@@ -569,7 +624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "CoSoVietGapController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\CoSoVietGapController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\CoSoVietGapController.cs",
@@ -581,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "CoSoVietGapManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\CoSoVietGap\\CoSoVietGapManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\CoSoVietGap\\CoSoVietGapManager.cs",
@@ -593,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "ThuocBaoVeThucVatManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ThuocBaoVeThucVat\\ThuocBaoVeThucVatManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\ThuocBaoVeThucVat\\ThuocBaoVeThucVatManager.cs",
@@ -605,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "TaiKhoanManagerView.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
@@ -617,7 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "ThuocBaoVeThucVatController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\ThuocBaoVeThucVatController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\ThuocBaoVeThucVatController.cs",
@@ -629,19 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "PhanBonController.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\PhanBonController.cs",
-              "RelativeDocumentMoniker": "WinApp\\Controllers\\PhanBonController.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\PhanBonController.cs",
-              "RelativeToolTip": "WinApp\\Controllers\\PhanBonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T07:45:43.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "MigrateController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\MigrateController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\MigrateController.cs",
@@ -653,7 +696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\HomeController.cs",
@@ -665,7 +708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "GiongCayController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\GiongCayController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\GiongCayController.cs",
@@ -677,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "DonViHanhChinh.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\DonViHanhChinh.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\DonViHanhChinh.cs",
@@ -689,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "ToChucCaNhanSanXuatController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\ToChucCaNhanSanXuatController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\ToChucCaNhanSanXuatController.cs",
@@ -701,7 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "VungTrongTrot.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\VungTrongTrot.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\VungTrongTrot.cs",
@@ -713,7 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Config.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\Config.cs",
@@ -725,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Account.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\Account.cs",
@@ -737,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "(Document).cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\(Document).cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\(Document).cs",
@@ -749,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "DonVi.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\DonVi.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\DonVi.cs",
@@ -761,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "GiongCayManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\GiongCay\\GiongCayManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\GiongCay\\GiongCayManager.cs",
@@ -773,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "ToChucCaNhanSanXuatPhanBonManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ToChucCaNhanSanXuatPhanBon\\ToChucCaNhanSanXuatPhanBonManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\ToChucCaNhanSanXuatPhanBon\\ToChucCaNhanSanXuatPhanBonManager.cs",
@@ -785,7 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "VungTrongTrotManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\VungTrongTrot\\VungTrongTrotManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\VungTrongTrot\\VungTrongTrotManager.cs",
@@ -797,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "ToChucCaNhanSanXuatManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ToChucCaNhanSanXuat\\ToChucCaNhanSanXuatManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\ToChucCaNhanSanXuat\\ToChucCaNhanSanXuatManager.cs",
@@ -809,19 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "HoTrongTrot.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\HoTrongTrot.cs",
-              "RelativeDocumentMoniker": "WinApp\\Models\\HoTrongTrot.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\HoTrongTrot.cs",
-              "RelativeToolTip": "WinApp\\Models\\HoTrongTrot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:11:05.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "CoSoBuonBanPhanBonManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\CoSoBuonBanPhanBon\\CoSoBuonBanPhanBonManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\CoSoBuonBanPhanBon\\CoSoBuonBanPhanBonManager.cs",
@@ -833,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "CoSoBuonBanPhanBonController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\CoSoBuonBanPhanBonController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\CoSoBuonBanPhanBonController.cs",
@@ -845,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "PhanBonManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\PhanBon\\PhanBonManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\PhanBon\\PhanBonManager.cs",
@@ -857,7 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "BaseView.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BaseView.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\BaseView.cs",
@@ -869,7 +900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "ProfileView.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Me\\ProfileView.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\Me\\ProfileView.cs",
@@ -881,7 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "Test.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Admin\\Test.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\Admin\\Test.cs",
@@ -893,7 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "MainUserLayout.xaml",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\MainUserLayout.xaml",
               "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\MainUserLayout.xaml",
@@ -904,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "DataListViewLayout.xaml",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\DataListViewLayout.xaml",
               "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\DataListViewLayout.xaml",
@@ -915,7 +946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "DataListViewLayout.xaml.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\DataListViewLayout.xaml.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\DataListViewLayout.xaml.cs",
@@ -927,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "MyTableView.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyTableView.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\_controls\\MyTableView.cs",
@@ -939,7 +970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "MyEditors.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyEditors.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\_controls\\MyEditors.cs",
@@ -951,7 +982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Login\\Login.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\Login\\Login.cs",
@@ -963,7 +994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "Index.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Home\\Index.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Index.cs",
@@ -975,7 +1006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App.xaml",
               "RelativeDocumentMoniker": "WinApp\\App.xaml",
@@ -986,7 +1017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "FormViewLayout.xaml",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\FormViewLayout.xaml",
               "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\FormViewLayout.xaml",
@@ -997,7 +1028,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "CodeGenerator.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Migration\\CodeGenerator.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\CodeGenerator.cs",
@@ -1009,7 +1040,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WinApp\\MainWindow.xaml",
@@ -1020,7 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "PageHeader.xaml",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\PageHeader.xaml",
               "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\PageHeader.xaml",
@@ -1031,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "App.config",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App.config",
               "RelativeDocumentMoniker": "WinApp\\App.config",
@@ -1043,7 +1074,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Actors\\User.cs",
               "RelativeDocumentMoniker": "WinApp\\Actors\\User.cs",
@@ -1055,7 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "WinApp\\App.xaml.cs",
@@ -1067,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "Engine.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\VST\\MVC\\Engine.cs",
               "RelativeDocumentMoniker": "WinApp\\VST\\MVC\\Engine.cs",
@@ -1079,7 +1110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "MyElements.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyElements.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\_controls\\MyElements.cs",
@@ -1091,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WinApp\\MainWindow.xaml.cs",

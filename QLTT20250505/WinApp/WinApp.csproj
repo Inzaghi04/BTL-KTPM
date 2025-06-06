@@ -64,7 +64,7 @@
     </ApplicationDefinition>
     <Compile Include="Actors\User.cs" />
     <Compile Include="Controllers\AdminController.cs" />
-    <Compile Include="Controllers\BanDoCotroller.cs" />
+    <Compile Include="Controllers\BanDoController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CoSoBuonBanController.cs" />
     <Compile Include="Controllers\CoSoBuonBanPhanBonController.cs" />
@@ -86,6 +86,7 @@
     <Compile Include="Controllers\VungTrongTrotController.cs" />
     <Compile Include="Models\%28Document%29.cs" />
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\BanDo.cs" />
     <Compile Include="Models\DonViHanhChinh.cs" />
     <Compile Include="Models\HoTrongTrot.cs" />
     <Compile Include="Models\Migration\CodeGenerator.cs" />
