@@ -7,8 +7,14 @@ using System.Threading.Tasks;
 
 namespace WinApp.Controllers
 {
-    partial class TaiKhoanController
+    partial class TaiKhoanController : DataController<HoSo>
     {
+        public object LichSu()
+        {
+            object data = Provider.Select<LichSuTruyCap>();
+            // Xử lý dữ liệu thống kê
+            return View(data);
+        }
         //protected override HoSo CreateEntity()
         //{
         //    return new HoSo { QuyenId = 3 };

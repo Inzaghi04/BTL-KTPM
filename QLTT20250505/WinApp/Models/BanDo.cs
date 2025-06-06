@@ -8,7 +8,23 @@ namespace Models
 {
     partial class BanDoPhanBo
     {
-        public string TenBanDo => Provider.GetTable<BanDoPhanBo>().Find<BanDoPhanBo>(CoSoID).TenBanDo;
-        
+        public string Ten
+        {
+            get
+            {
+                if (CoSoID.HasValue)
+                {
+                    var coSo = Provider.GetTable<CoSo>().Find<CoSo>(CoSoID.Value);
+                    return coSo?.TenCoSo;
+                }
+                else if (VungTrongTrotID.HasValue)
+                {
+                    var vungTrongTrot = Provider.GetTable<VungTrongTrot>().Find<VungTrongTrot>(VungTrongTrotID.Value);
+                    return vungTrongTrot?.TenVungTrongTrot;
+                }
+                return null;
+            }
+        }
     }
 }
+

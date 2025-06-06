@@ -22,12 +22,14 @@ namespace WinApp.Views.BanDo
             base.RenderCore(context);
             context.Title = "Bản đồ phân bố";
             context.TableColumns = new object[] {
-                new TableColumn { Name = "KinhDo", Caption = "Kinh độ", Width = 150, },
-                new TableColumn { Name = "ViDo", Caption = "Vĩ độ", Width = 150, },
                 new TableColumn { Name = "CoSoID", Caption = "Cơ sở ID", Width = 100, },
                 new TableColumn { Name = "VungTrongTrotID", Caption = "Vùng trồng trọt ID", Width = 150, },
+                new TableColumn { Name = "Ten", Caption = "Tên", Width = 200, },
+                new TableColumn { Name = "KinhDo", Caption = "Kinh độ", Width = 150, },
+                new TableColumn { Name = "ViDo", Caption = "Vĩ độ", Width = 150, },
+                
             };
         }
     }
-
-    }
+    
+}

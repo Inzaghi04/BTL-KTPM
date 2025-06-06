@@ -94,7 +94,7 @@ namespace Models
     public partial class LichSuTruyCap
     {
         public int? ID { get; set; }
-        public string ThoiGianTruyCap { get; set; }
+        public DateTime ThoiGianTruyCap { get; set; }
         public string MoTaHanhDong { get; set; }
         public int? NguoiDungID { get; set; }
     }
@@ -285,6 +285,20 @@ namespace Models
         public string SoGiayPhepKinhDoanh {  get; set; }
         
         public DateTime NgayCapGiayPhep { get; set; }
+    }
+}
+
+namespace Models
+{
+    public partial class  CoSo
+    {
+        public int? ID { get; set; }
+        public string TenCoSo { get; set; }
+        public string DiaChi { get; set; }
+        public DateTime? NgayCapGiayPhep { get; set; }
+        public int? LoaiCoSoID { get; set; }
+        public int? DonViHanhChinhID { get; set; }
+        public int? ToChuc_or_CaNhanID { get; set; }
     }
 }
 

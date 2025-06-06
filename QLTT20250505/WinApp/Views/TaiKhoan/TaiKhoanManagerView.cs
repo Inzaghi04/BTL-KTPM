@@ -28,6 +28,19 @@ namespace WinApp.Views.TaiKhoan
             };
         }
     }
+    class LichSu : BaseView<DataListViewLayout>
+    {
+        protected override void RenderCore(ViewContext context)
+        {
+            base.RenderCore(context);
+            context.Title = "Lịch sử đăng nhập";
+            context.TableColumns = new TableColumn[] {
+                new TC { Name = "NguoiDungID", Caption = "ID", Width = 200 },
+                new TC { Name = "ThoiGianTruyCap", Caption = "Time", Width = 200 },
+                new TC { Name = "MoTaHanhDong", Caption = "State", Width = 200 },
+            };
+        }
+    }
     class Edit : Add
     {
         protected override void OnReady()
