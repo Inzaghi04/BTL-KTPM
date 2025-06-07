@@ -13,8 +13,8 @@
             <RowDefinition />
         </Grid.RowDefinitions>
         <Border x:Name="Banner"
-                Background="#ffd154"
-                BorderBrush="#ffd154"
+                Background="#008000"
+                BorderBrush="#008000"
                 BorderThickness="0 0 0 2">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -23,20 +23,19 @@
                     <ColumnDefinition Width="100" />
                 </Grid.ColumnDefinitions>
                 <StackPanel Margin="10 0" VerticalAlignment="Center">
-                    <Label Content="K.T.P.M" 
-                               Padding="0"
-                               Foreground="#295f2d"
-                               FontSize="16"
-                               FontWeight="Bold" />
+                    <Label Content="Quản Lý Trồng Trọt" 
+                           Padding="0"
+                           Foreground="#FFFFFF"
+                           FontSize="16"
+                           FontWeight="Bold" />
                     <Label Content="Ứng dụng desktop" 
-                               Foreground="#295f2d"
-                               Padding="0"
-                               />
+                           Foreground="#FFFFFF"
+                           Padding="0" />
                 </StackPanel>
 
                 <local:AppMainMenu Grid.Column="1"
-                                    VerticalAlignment="Center"
-                                    x:Name="TopMenu">
+                                   VerticalAlignment="Center"
+                                   x:Name="TopMenu">
                 </local:AppMainMenu>
                 <vst:HorizontalMenu Grid.Column="2"
                                     HorizontalAlignment="Right"
@@ -46,13 +45,12 @@
                     <vst:Button x:Name="MeButton"
                                 Padding="10 4"
                                 BorderRadius="10"
-                                Background="#64F2" 
-                                Foreground="Black" />
-                    
+                                Background="#009900" 
+                                Foreground="#FFFFFF" />
                 </vst:HorizontalMenu>
             </Grid>
         </Border>
-        
+
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="250" />
@@ -63,7 +61,7 @@
                 <vst:VerticalMenu x:Name="SideMenu" />
             </ScrollViewer>
             <Border x:Name="Body" Grid.Column="1">
-                
+
             </Border>
         </Grid>
     </Grid>

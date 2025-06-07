@@ -31,5 +31,30 @@ namespace WinApp.Views.BanDo
             };
         }
     }
-    
+    class Add : EditView
+    {
+        protected override void RenderCore(ViewContext context)
+        {
+            base.RenderCore(context);
+            context.Title = "Thông Tin Giống Cây";
+            context.Editors = new object[] {
+                new EditorInfo { Name = "CoSoID", Caption = "Cơ sở ID", Layout = 12, },
+                new EditorInfo { Name = "VungTrongTrotID", Caption = "Vùng trồng trọt ID", Layout = 12, },
+                new EditorInfo { Name = "Ten", Caption = "Tên", Layout = 12, },
+                new EditorInfo { Name = "KinhDo", Caption = "Kinh độ", Layout = 12, },
+                new EditorInfo { Name = "ViDo", Caption = "Vĩ độ", Layout = 12, },
+            };
+        }
+    }
+
+    class Edit : Add
+    {
+        protected override void OnReady()
+        {
+            // Thay FieldName bằng tên trường muốn thể hiện trên câu hỏi xóa bản ghi
+            ShowDeleteAction("FieldName");
+            // Thay EditorName bằng tên trường muốn cấm soạn thảo
+            Find("EditorName", c => c.IsEnabled = false);
+        }
+    }
 }

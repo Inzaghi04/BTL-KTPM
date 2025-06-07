@@ -367,3 +367,4 @@ C:\Users\duong\Downloads\BTL-KTPM\QLTT20250505\WinApp\obj\Debug\WinApp.csproj.Co
 C:\Users\duong\Downloads\BTL-KTPM\QLTT20250505\WinApp\obj\Debug\WinApp.csproj.Up2Date
 C:\Users\duong\Downloads\BTL-KTPM\QLTT20250505\WinApp\obj\Debug\WinApp.exe
 C:\Users\duong\Downloads\BTL-KTPM\QLTT20250505\WinApp\obj\Debug\WinApp.pdb
+C:\BTL-KTPM\QLTT20250505\WinApp\obj\Debug\WinApp.exe.config
