@@ -27,12 +27,20 @@ namespace WinApp.Views._layouts
         }
 
         // Xử lý sự kiện click nút Thoát
+        public static class AppHelper
+        {
+            public static void RedirectToAction(string action, string controller, params object[] args)
+            {
+                App.Request($"{controller}/{action}", args);
+            }
+        }
         private void ExitButton_Click(object sender, RoutedEventArgs e)
         {
-            // Nếu MapView là UserControl, bạn có thể ẩn nó hoặc raise một event cho cha xử lý
-            this.Visibility = Visibility.Collapsed;
-            // Hoặc nếu muốn raise một sự kiện cho cha đóng hẳn View này:
-            // (Tùy vào kiến trúc, có thể dùng Event, Delegate, hoặc Command để báo cha)
+            var mainWindow = Window.GetWindow(this) as MainWindow;
+            if (mainWindow != null)
+            {
+                AppHelper.RedirectToAction("index", "GiongCay");
+            }
         }
     }
 }

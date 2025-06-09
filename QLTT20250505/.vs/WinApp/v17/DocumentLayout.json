@@ -3,28 +3,72 @@
   "WorkspaceRootPath": "C:\\BTL-KTPM\\QLTT20250505\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_layouts\\mapview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\mapview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\qltt20250505\\winapp\\views\\_layouts\\mapview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\mapview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\qltt20250505\\winapp\\views\\_layouts\\mapview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\mapview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_layouts\\formviewlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\formviewlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_layouts\\datalistviewlayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\datalistviewlayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_layouts\\mainuserlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\mainuserlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\baseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\baseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\bando\\bandomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\bando\\bandomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\qltt20250505\\winapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\controllers\\giongcaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\giongcaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\giongcay\\giongcaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\giongcay\\giongcaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_layouts\\mainuserlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\mainuserlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_layouts\\datalistviewlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\datalistviewlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|c:\\btl-ktpm\\qltt20250505\\winapp\\app_data\\actions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\app_data\\actions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\cosobuonban\\cosobuonbanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\cosobuonban\\cosobuonbanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_layouts\\formviewlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\formviewlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\BTL-KTPM\\QLTT20250505\\packages\\GMap.NET.Presentation.1.7.1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -35,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\GMap.NET.WindowsForms.1.7.1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_layouts\\formviewlayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\formviewlayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,20 +87,8 @@
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\pageheader.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_layouts\\datalistviewlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\datalistviewlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_controls\\myeditors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_controls\\myeditors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\giongcay\\giongcaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\giongcay\\giongcaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\cosobuonban\\cosobuonbanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\cosobuonban\\cosobuonbanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\models\\migration\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,10 +143,6 @@
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\controllers\\giongcaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\giongcaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\controllers\\phanboncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\phanboncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -153,10 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\controllers\\mecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\mecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\controllers\\cosobuonbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -235,20 +255,12 @@
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\phanbon\\phanbonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\baseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\baseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\me\\profileview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\me\\profileview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\admin\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\admin\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_layouts\\datalistviewlayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\datalistviewlayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_controls\\mytableview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -267,20 +279,12 @@
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\home\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\actors\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\actors\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|solutionrelative:winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{897D371C-FAC8-4711-9A23-4ED46A663D0D}|WinApp\\WinApp.csproj|C:\\BTL-KTPM\\QLTT20250505\\winapp\\views\\_controls\\myelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -298,21 +302,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MapView.xaml.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\MapView.xaml.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\MapView.xaml.cs",
               "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\MapView.xaml.cs",
               "RelativeToolTip": "WinApp\\Views\\_layouts\\MapView.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAswCUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAvwCkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T17:43:15.804Z",
               "EditorCaption": ""
@@ -320,81 +320,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "readme.txt",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\packages\\GMap.NET.Presentation.1.7.1\\readme.txt",
-              "RelativeDocumentMoniker": "packages\\GMap.NET.Presentation.1.7.1\\readme.txt",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\packages\\GMap.NET.Presentation.1.7.1\\readme.txt",
-              "RelativeToolTip": "packages\\GMap.NET.Presentation.1.7.1\\readme.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-06-09T17:42:53.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MapView.xaml",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\MapView.xaml",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\MapView.xaml",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\MapView.xaml",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\MapView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-09T17:41:40.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "readme.txt",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\packages\\GMap.NET.WindowsForms.1.7.1\\readme.txt",
-              "RelativeDocumentMoniker": "packages\\GMap.NET.WindowsForms.1.7.1\\readme.txt",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\packages\\GMap.NET.WindowsForms.1.7.1\\readme.txt",
-              "RelativeToolTip": "packages\\GMap.NET.WindowsForms.1.7.1\\readme.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-06-09T17:40:39.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainUserLayout.xaml",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\MainUserLayout.xaml",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\MainUserLayout.xaml",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\MainUserLayout.xaml",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\MainUserLayout.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-16T07:07:44.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormViewLayout.xaml",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\FormViewLayout.xaml",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\FormViewLayout.xaml",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\FormViewLayout.xaml",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\FormViewLayout.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-16T07:30:17.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BanDoManager.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BanDo\\BanDoManager.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\BanDo\\BanDoManager.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BanDo\\BanDoManager.cs",
-              "RelativeToolTip": "WinApp\\Views\\BanDo\\BanDoManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T03:57:42.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App.xaml",
               "RelativeDocumentMoniker": "WinApp\\App.xaml",
@@ -406,27 +331,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PageHeader.xaml",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\PageHeader.xaml",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\PageHeader.xaml",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\PageHeader.xaml",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\PageHeader.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-16T07:38:58.136Z",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WinApp\\App.xaml.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App.xaml.cs",
+              "RelativeToolTip": "WinApp\\App.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T06:35:26.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormViewLayout.xaml.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\FormViewLayout.xaml.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\FormViewLayout.xaml.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\FormViewLayout.xaml.cs",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\FormViewLayout.xaml.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAwwFIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WinApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WinApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAlwDsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T17:22:43.745Z",
+              "WhenOpened": "2025-05-05T08:01:04.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BanDoManager.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BanDo\\BanDoManager.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\BanDo\\BanDoManager.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BanDo\\BanDoManager.cs",
+              "RelativeToolTip": "WinApp\\Views\\BanDo\\BanDoManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T03:57:42.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseView.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BaseView.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\BaseView.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BaseView.cs",
+              "RelativeToolTip": "WinApp\\Views\\BaseView.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAnwJgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:40:27.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MapView.xaml",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\MapView.xaml",
+              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\MapView.xaml",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\MapView.xaml",
+              "RelativeToolTip": "WinApp\\Views\\_layouts\\MapView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-09T17:41:40.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataListViewLayout.xaml.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\DataListViewLayout.xaml.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\DataListViewLayout.xaml.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\DataListViewLayout.xaml.cs",
+              "RelativeToolTip": "WinApp\\Views\\_layouts\\DataListViewLayout.xaml.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAvwGoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:11:44.352Z",
               "EditorCaption": ""
             },
             {
@@ -444,84 +425,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "MyEditors.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyEditors.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_controls\\MyEditors.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyEditors.cs",
-              "RelativeToolTip": "WinApp\\Views\\_controls\\MyEditors.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T11:11:02.442Z",
+              "Title": "MainUserLayout.xaml",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\MainUserLayout.xaml",
+              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\MainUserLayout.xaml",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\MainUserLayout.xaml",
+              "RelativeToolTip": "WinApp\\Views\\_layouts\\MainUserLayout.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T07:07:44.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Provider.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Migration\\Provider.cs",
-              "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\Provider.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Migration\\Provider.cs",
-              "RelativeToolTip": "WinApp\\Models\\Migration\\Provider.cs",
-              "ViewState": "AgIAAL8BAAAAAAAAAAAIwMgBAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T17:47:05.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ToChucCaNhanSanXuatController.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\ToChucCaNhanSanXuatController.cs",
-              "RelativeDocumentMoniker": "WinApp\\Controllers\\ToChucCaNhanSanXuatController.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\ToChucCaNhanSanXuatController.cs",
-              "RelativeToolTip": "WinApp\\Controllers\\ToChucCaNhanSanXuatController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T05:58:17.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Config.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Config.cs",
-              "RelativeDocumentMoniker": "WinApp\\Models\\Config.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Config.cs",
-              "RelativeToolTip": "WinApp\\Models\\Config.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T05:38:18.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Account.cs",
-              "RelativeDocumentMoniker": "WinApp\\Models\\Account.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Account.cs",
-              "RelativeToolTip": "WinApp\\Models\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T05:17:30.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "CodeGenerator.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Migration\\CodeGenerator.cs",
-              "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\CodeGenerator.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Migration\\CodeGenerator.cs",
-              "RelativeToolTip": "WinApp\\Models\\Migration\\CodeGenerator.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAewAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T09:27:18.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "DataListViewLayout.xaml",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\DataListViewLayout.xaml",
               "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\DataListViewLayout.xaml",
@@ -533,215 +448,130 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
+              "Title": "Actions.json",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App_Data\\Actions.json",
+              "RelativeDocumentMoniker": "WinApp\\App_Data\\Actions.json",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App_Data\\Actions.json",
+              "RelativeToolTip": "WinApp\\App_Data\\Actions.json",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-09T18:14:49.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "GiongCayManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\GiongCay\\GiongCayManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\GiongCay\\GiongCayManager.cs",
               "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\GiongCay\\GiongCayManager.cs",
               "RelativeToolTip": "WinApp\\Views\\GiongCay\\GiongCayManager.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T10:09:57.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MigrateResult.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\MigrateResult.cs",
-              "RelativeDocumentMoniker": "WinApp\\Models\\MigrateResult.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\MigrateResult.cs",
-              "RelativeToolTip": "WinApp\\Models\\MigrateResult.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAvwGEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T10:36:21.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "ToChucCaNhanSanXuatPhanBonManager.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ToChucCaNhanSanXuatPhanBon\\ToChucCaNhanSanXuatPhanBonManager.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\ToChucCaNhanSanXuatPhanBon\\ToChucCaNhanSanXuatPhanBonManager.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ToChucCaNhanSanXuatPhanBon\\ToChucCaNhanSanXuatPhanBonManager.cs",
-              "RelativeToolTip": "WinApp\\Views\\ToChucCaNhanSanXuatPhanBon\\ToChucCaNhanSanXuatPhanBonManager.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAcwDkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T23:25:13.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 55,
-              "Title": "ToChucCaNhanSanXuatManager.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ToChucCaNhanSanXuat\\ToChucCaNhanSanXuatManager.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\ToChucCaNhanSanXuat\\ToChucCaNhanSanXuatManager.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ToChucCaNhanSanXuat\\ToChucCaNhanSanXuatManager.cs",
-              "RelativeToolTip": "WinApp\\Views\\ToChucCaNhanSanXuat\\ToChucCaNhanSanXuatManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Config.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\Config.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Config.cs",
+              "RelativeToolTip": "WinApp\\Models\\Config.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T05:59:07.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T05:38:18.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "(Document).cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\(Document).cs",
-              "RelativeDocumentMoniker": "WinApp\\Models\\(Document).cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\(Document).cs",
-              "RelativeToolTip": "WinApp\\Models\\(Document).cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "FormViewLayout.xaml.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\FormViewLayout.xaml.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\FormViewLayout.xaml.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\FormViewLayout.xaml.cs",
+              "RelativeToolTip": "WinApp\\Views\\_layouts\\FormViewLayout.xaml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T05:15:32.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "DonVi.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\DonVi.cs",
-              "RelativeDocumentMoniker": "WinApp\\Models\\DonVi.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\DonVi.cs",
-              "RelativeToolTip": "WinApp\\Models\\DonVi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T07:07:41.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TaiKhoanManagerView.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
-              "RelativeToolTip": "WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCcAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:55:42.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T17:22:43.745Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 56,
-              "Title": "CoSoBuonBanPhanBonManager.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\CoSoBuonBanPhanBon\\CoSoBuonBanPhanBonManager.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\CoSoBuonBanPhanBon\\CoSoBuonBanPhanBonManager.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\CoSoBuonBanPhanBon\\CoSoBuonBanPhanBonManager.cs",
-              "RelativeToolTip": "WinApp\\Views\\CoSoBuonBanPhanBon\\CoSoBuonBanPhanBonManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCUAAABlAAAAAAAAAA==",
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\Account.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Account.cs",
+              "RelativeToolTip": "WinApp\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T23:57:27.549Z",
+              "WhenOpened": "2025-05-16T05:17:30.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CodeGenerator.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Migration\\CodeGenerator.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\CodeGenerator.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Migration\\CodeGenerator.cs",
+              "RelativeToolTip": "WinApp\\Models\\Migration\\CodeGenerator.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAewAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T09:27:18.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PageHeader.xaml",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\PageHeader.xaml",
+              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\PageHeader.xaml",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\PageHeader.xaml",
+              "RelativeToolTip": "WinApp\\Views\\_layouts\\PageHeader.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T07:38:58.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "PhanBonManager.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\PhanBon\\PhanBonManager.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\PhanBon\\PhanBonManager.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\PhanBon\\PhanBonManager.cs",
-              "RelativeToolTip": "WinApp\\Views\\PhanBon\\PhanBonManager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "GiongCayController.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\GiongCayController.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\GiongCayController.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\GiongCayController.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\GiongCayController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T07:46:53.491Z",
+              "WhenOpened": "2025-05-31T10:17:08.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "BaseView.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BaseView.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\BaseView.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\BaseView.cs",
-              "RelativeToolTip": "WinApp\\Views\\BaseView.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAUwKAAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T06:40:27.352Z",
+              "WhenOpened": "2025-05-05T06:35:45.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "ProfileView.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Me\\ProfileView.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\Me\\ProfileView.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Me\\ProfileView.cs",
-              "RelativeToolTip": "WinApp\\Views\\Me\\ProfileView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:54:53.24Z",
-              "EditorCaption": ""
+              "DocumentIndex": 16,
+              "Title": "FormViewLayout.xaml",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\FormViewLayout.xaml",
+              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\FormViewLayout.xaml",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\FormViewLayout.xaml",
+              "RelativeToolTip": "WinApp\\Views\\_layouts\\FormViewLayout.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T07:30:17.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "Test.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Admin\\Test.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\Admin\\Test.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Admin\\Test.cs",
-              "RelativeToolTip": "WinApp\\Views\\Admin\\Test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T20:53:20.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "DataListViewLayout.xaml.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\DataListViewLayout.xaml.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\DataListViewLayout.xaml.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_layouts\\DataListViewLayout.xaml.cs",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\DataListViewLayout.xaml.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T11:11:44.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "MyTableView.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyTableView.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_controls\\MyTableView.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyTableView.cs",
-              "RelativeToolTip": "WinApp\\Views\\_controls\\MyTableView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T11:11:00.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Login\\Login.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\Login\\Login.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Login\\Login.cs",
-              "RelativeToolTip": "WinApp\\Views\\Login\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T06:40:43.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Index.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Home\\Index.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Index.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Home\\Index.cs",
-              "RelativeToolTip": "WinApp\\Views\\Home\\Index.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:55:22.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CoSoBuonBanManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\CoSoBuonBan\\CoSoBuonBanManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\CoSoBuonBan\\CoSoBuonBanManager.cs",
@@ -755,6 +585,222 @@
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\packages\\GMap.NET.WindowsForms.1.7.1\\readme.txt",
+              "RelativeDocumentMoniker": "packages\\GMap.NET.WindowsForms.1.7.1\\readme.txt",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\packages\\GMap.NET.WindowsForms.1.7.1\\readme.txt",
+              "RelativeToolTip": "packages\\GMap.NET.WindowsForms.1.7.1\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-09T17:40:39.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\packages\\GMap.NET.Presentation.1.7.1\\readme.txt",
+              "RelativeDocumentMoniker": "packages\\GMap.NET.Presentation.1.7.1\\readme.txt",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\packages\\GMap.NET.Presentation.1.7.1\\readme.txt",
+              "RelativeToolTip": "packages\\GMap.NET.Presentation.1.7.1\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-09T17:42:53.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Provider.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Migration\\Provider.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\Migration\\Provider.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\Migration\\Provider.cs",
+              "RelativeToolTip": "WinApp\\Models\\Migration\\Provider.cs",
+              "ViewState": "AgIAAL8BAAAAAAAAAAAIwMgBAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:47:05.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ToChucCaNhanSanXuatController.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\ToChucCaNhanSanXuatController.cs",
+              "RelativeDocumentMoniker": "WinApp\\Controllers\\ToChucCaNhanSanXuatController.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\ToChucCaNhanSanXuatController.cs",
+              "RelativeToolTip": "WinApp\\Controllers\\ToChucCaNhanSanXuatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:58:17.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MyEditors.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyEditors.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\_controls\\MyEditors.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyEditors.cs",
+              "RelativeToolTip": "WinApp\\Views\\_controls\\MyEditors.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:11:02.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MigrateResult.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\MigrateResult.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\MigrateResult.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\MigrateResult.cs",
+              "RelativeToolTip": "WinApp\\Models\\MigrateResult.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAvwGEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:36:21.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ToChucCaNhanSanXuatPhanBonManager.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ToChucCaNhanSanXuatPhanBon\\ToChucCaNhanSanXuatPhanBonManager.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\ToChucCaNhanSanXuatPhanBon\\ToChucCaNhanSanXuatPhanBonManager.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ToChucCaNhanSanXuatPhanBon\\ToChucCaNhanSanXuatPhanBonManager.cs",
+              "RelativeToolTip": "WinApp\\Views\\ToChucCaNhanSanXuatPhanBon\\ToChucCaNhanSanXuatPhanBonManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:25:13.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ToChucCaNhanSanXuatManager.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ToChucCaNhanSanXuat\\ToChucCaNhanSanXuatManager.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\ToChucCaNhanSanXuat\\ToChucCaNhanSanXuatManager.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ToChucCaNhanSanXuat\\ToChucCaNhanSanXuatManager.cs",
+              "RelativeToolTip": "WinApp\\Views\\ToChucCaNhanSanXuat\\ToChucCaNhanSanXuatManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:59:07.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "(Document).cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\(Document).cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\(Document).cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\(Document).cs",
+              "RelativeToolTip": "WinApp\\Models\\(Document).cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T05:15:32.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DonVi.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\DonVi.cs",
+              "RelativeDocumentMoniker": "WinApp\\Models\\DonVi.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\DonVi.cs",
+              "RelativeToolTip": "WinApp\\Models\\DonVi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T07:07:41.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TaiKhoanManagerView.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
+              "RelativeToolTip": "WinApp\\Views\\TaiKhoan\\TaiKhoanManagerView.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:55:42.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CoSoBuonBanPhanBonManager.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\CoSoBuonBanPhanBon\\CoSoBuonBanPhanBonManager.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\CoSoBuonBanPhanBon\\CoSoBuonBanPhanBonManager.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\CoSoBuonBanPhanBon\\CoSoBuonBanPhanBonManager.cs",
+              "RelativeToolTip": "WinApp\\Views\\CoSoBuonBanPhanBon\\CoSoBuonBanPhanBonManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCUAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:57:27.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "PhanBonManager.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\PhanBon\\PhanBonManager.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\PhanBon\\PhanBonManager.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\PhanBon\\PhanBonManager.cs",
+              "RelativeToolTip": "WinApp\\Views\\PhanBon\\PhanBonManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:46:53.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ProfileView.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Me\\ProfileView.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\Me\\ProfileView.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Me\\ProfileView.cs",
+              "RelativeToolTip": "WinApp\\Views\\Me\\ProfileView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:54:53.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Admin\\Test.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\Admin\\Test.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Admin\\Test.cs",
+              "RelativeToolTip": "WinApp\\Views\\Admin\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T20:53:20.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "MyTableView.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyTableView.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\_controls\\MyTableView.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyTableView.cs",
+              "RelativeToolTip": "WinApp\\Views\\_controls\\MyTableView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:11:00.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\Login\\Login.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Login\\Login.cs",
+              "RelativeToolTip": "WinApp\\Views\\Login\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:40:43.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Index.cs",
+              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Home\\Index.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Index.cs",
+              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Home\\Index.cs",
+              "RelativeToolTip": "WinApp\\Views\\Home\\Index.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:55:22.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "TaiKhoanController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\TaiKhoanController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\TaiKhoanController.cs",
@@ -762,12 +808,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\TaiKhoanController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T06:44:50.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T06:44:50.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "DonViHanhChinh.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\DonViHanhChinh.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\DonViHanhChinh.cs",
@@ -775,12 +820,11 @@
               "RelativeToolTip": "WinApp\\Models\\DonViHanhChinh.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T17:00:31.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T17:00:31.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "VungTrongTrot.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\VungTrongTrot.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\VungTrongTrot.cs",
@@ -788,12 +832,11 @@
               "RelativeToolTip": "WinApp\\Models\\VungTrongTrot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:50:11.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T07:50:11.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "BanDo.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\BanDo.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\BanDo.cs",
@@ -801,12 +844,11 @@
               "RelativeToolTip": "WinApp\\Models\\BanDo.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T04:05:23.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T04:05:23.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "HoTrongTrot.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\HoTrongTrot.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\HoTrongTrot.cs",
@@ -814,12 +856,11 @@
               "RelativeToolTip": "WinApp\\Models\\HoTrongTrot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:11:05.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T07:11:05.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "DonViHanhChinhManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\DonViHanhChinh\\DonViHanhChinhManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\DonViHanhChinh\\DonViHanhChinhManager.cs",
@@ -827,12 +868,11 @@
               "RelativeToolTip": "WinApp\\Views\\DonViHanhChinh\\DonViHanhChinhManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T17:12:54.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T17:12:54.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "CoSoBuonBanPhanBonController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\CoSoBuonBanPhanBonController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\CoSoBuonBanPhanBonController.cs",
@@ -840,12 +880,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\CoSoBuonBanPhanBonController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T23:56:43.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T23:56:43.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "BanDoController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\BanDoController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\BanDoController.cs",
@@ -853,12 +892,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\BanDoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T04:15:35.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T04:15:35.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\BaseController.cs",
@@ -866,25 +904,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\BaseController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAwCAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T06:03:54.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T06:03:54.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "GiongCayController.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\GiongCayController.cs",
-              "RelativeDocumentMoniker": "WinApp\\Controllers\\GiongCayController.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\GiongCayController.cs",
-              "RelativeToolTip": "WinApp\\Controllers\\GiongCayController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T10:17:08.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "CoSoVietGapController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\CoSoVietGapController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\CoSoVietGapController.cs",
@@ -892,12 +916,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\CoSoVietGapController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T09:33:45.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T09:33:45.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "MigrateResult.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\MigrateResult.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\MigrateResult.cs",
@@ -905,12 +928,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\MigrateResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T06:57:38.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T06:57:38.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "PhanBonController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\PhanBonController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\PhanBonController.cs",
@@ -918,12 +940,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\PhanBonController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T07:45:43.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T07:45:43.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "SinhVatGayHaiManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\SinhVatGayHai\\SinhVatGayHaiManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\SinhVatGayHai\\SinhVatGayHaiManager.cs",
@@ -931,12 +952,11 @@
               "RelativeToolTip": "WinApp\\Views\\SinhVatGayHai\\SinhVatGayHaiManager.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwCoAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T09:58:45.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T09:58:45.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "Developer.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Home\\Developer.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Developer.cs",
@@ -944,12 +964,11 @@
               "RelativeToolTip": "WinApp\\Views\\Home\\Developer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T20:58:31.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T20:58:31.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "Config.json",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App_Data\\Config.json",
               "RelativeDocumentMoniker": "WinApp\\App_Data\\Config.json",
@@ -957,12 +976,11 @@
               "RelativeToolTip": "WinApp\\App_Data\\Config.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-12T06:31:24.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T06:31:24.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Home\\Admin.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Admin.cs",
@@ -970,12 +988,11 @@
               "RelativeToolTip": "WinApp\\Views\\Home\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T06:35:25.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T06:35:25.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "Loading.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\Home\\Loading.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Loading.cs",
@@ -983,12 +1000,11 @@
               "RelativeToolTip": "WinApp\\Views\\Home\\Loading.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T20:44:16.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T20:44:16.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "UpdateContext.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Models\\UpdateContext.cs",
               "RelativeDocumentMoniker": "WinApp\\Models\\UpdateContext.cs",
@@ -996,12 +1012,11 @@
               "RelativeToolTip": "WinApp\\Models\\UpdateContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T05:31:42.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T05:31:42.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "MeController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\MeController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\MeController.cs",
@@ -1009,25 +1024,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\MeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T01:53:26.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T01:53:26.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "WinApp\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "WinApp\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T06:35:45.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "CoSoBuonBanController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\CoSoBuonBanController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\CoSoBuonBanController.cs",
@@ -1035,12 +1036,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\CoSoBuonBanController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T06:47:54.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T06:47:54.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "ToChucCaNhanSanXuatPhanBonController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\ToChucCaNhanSanXuatPhanBonController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\ToChucCaNhanSanXuatPhanBonController.cs",
@@ -1048,12 +1048,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\ToChucCaNhanSanXuatPhanBonController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T23:33:21.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T23:33:21.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "VungTrongTrotController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\VungTrongTrotController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\VungTrongTrotController.cs",
@@ -1061,12 +1060,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\VungTrongTrotController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:59:45.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T07:59:45.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "QLTTController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\QLTTController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\QLTTController.cs",
@@ -1074,12 +1072,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\QLTTController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T06:41:02.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T06:41:02.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "DonViHanhChinhController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\DonViHanhChinhController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\DonViHanhChinhController.cs",
@@ -1087,12 +1084,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\DonViHanhChinhController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T17:09:49.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T17:09:49.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "CoSoVietGapManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\CoSoVietGap\\CoSoVietGapManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\CoSoVietGap\\CoSoVietGapManager.cs",
@@ -1100,12 +1096,11 @@
               "RelativeToolTip": "WinApp\\Views\\CoSoVietGap\\CoSoVietGapManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T09:34:28.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T09:34:28.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "ThuocBaoVeThucVatManager.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\ThuocBaoVeThucVat\\ThuocBaoVeThucVatManager.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\ThuocBaoVeThucVat\\ThuocBaoVeThucVatManager.cs",
@@ -1113,12 +1108,11 @@
               "RelativeToolTip": "WinApp\\Views\\ThuocBaoVeThucVat\\ThuocBaoVeThucVatManager.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAcwDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T02:42:23.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T02:42:23.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "ThuocBaoVeThucVatController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\ThuocBaoVeThucVatController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\ThuocBaoVeThucVatController.cs",
@@ -1126,12 +1120,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\ThuocBaoVeThucVatController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T05:55:21.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T05:55:21.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "MigrateController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\MigrateController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\MigrateController.cs",
@@ -1139,12 +1132,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\MigrateController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T09:28:26.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T09:28:26.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WinApp\\Controllers\\HomeController.cs",
@@ -1152,12 +1144,11 @@
               "RelativeToolTip": "WinApp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T07:08:45.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T07:08:45.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "App.config",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App.config",
               "RelativeDocumentMoniker": "WinApp\\App.config",
@@ -1165,12 +1156,11 @@
               "RelativeToolTip": "WinApp\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-05T06:40:08.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T06:40:08.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Actors\\User.cs",
               "RelativeDocumentMoniker": "WinApp\\Actors\\User.cs",
@@ -1178,25 +1168,11 @@
               "RelativeToolTip": "WinApp\\Actors\\User.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T06:31:03.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T06:31:03.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "WinApp\\App.xaml.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\App.xaml.cs",
-              "RelativeToolTip": "WinApp\\App.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T06:35:26.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "Engine.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\VST\\MVC\\Engine.cs",
               "RelativeDocumentMoniker": "WinApp\\VST\\MVC\\Engine.cs",
@@ -1204,12 +1180,11 @@
               "RelativeToolTip": "WinApp\\VST\\MVC\\Engine.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAASwCwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T06:36:55.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T06:36:55.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "MyElements.cs",
               "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\Views\\_controls\\MyElements.cs",
               "RelativeDocumentMoniker": "WinApp\\Views\\_controls\\MyElements.cs",
@@ -1217,21 +1192,7 @@
               "RelativeToolTip": "WinApp\\Views\\_controls\\MyElements.cs",
               "ViewState": "AgIAADQBAAAAAAAAAAASwD8BAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T06:36:49.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WinApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\BTL-KTPM\\QLTT20250505\\WinApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WinApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAlwDsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:01:04.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T06:36:49.828Z"
             }
           ]
         }
