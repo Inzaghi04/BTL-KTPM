@@ -87,7 +87,7 @@
         </Style>
         <Style TargetType="vst:EditorLabel">
             <Setter Property="Margin" Value="6 0" />
-            <Setter Property="Foreground" Value="#FFFFFF" />
+            <Setter Property="Foreground" Value="#02733E" />
         </Style>
         <Style TargetType="vst:Placeholder">
             <Setter Property="FontWeight" Value="Bold" />
