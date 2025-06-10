@@ -72,5 +72,21 @@
                 </Style>
             </Button.Style>
         </Button>
+        <!-- Legend Panel -->
+        <StackPanel x:Name="LegendPanel" 
+                    Background="White" 
+                    Margin="20" 
+                    VerticalAlignment="Bottom" 
+                    HorizontalAlignment="Right" 
+                    MinWidth="220">
+            <StackPanel.Effect>
+                <DropShadowEffect Color="Gray" BlurRadius="10" ShadowDepth="3" Opacity="0.5"/>
+            </StackPanel.Effect>
+            <Border CornerRadius="12" Background="White" Padding="15" BorderBrush="#E0E0E0" BorderThickness="1">
+                <StackPanel>
+                    <!-- Legend items will be added dynamically in C# -->
+                </StackPanel>
+            </Border>
+        </StackPanel>
     </Grid>
 </UserControl>
